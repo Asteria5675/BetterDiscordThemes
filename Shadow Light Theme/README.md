@@ -17,3 +17,4 @@ Customizable CSS Color Values and Background
 <br> </br>
 <h2> Change Logs </h2>
 Version 1.0.0 - Initial Release
+
