@@ -402,7 +402,8 @@ Private Channels
  */
 .container-PNkimc,
 .channels-Ie2l6A {
-    background: rgba(0,0,0,0.45)!important;
+    background: rgba(0,0,0,0)!important;
+/* rgba(0,0,0,0.45) for darker channels */
 }
 
 .online-2S838R.status-oxiHuE.small-5Os1Bb.status {
@@ -529,7 +530,8 @@ Private Channels
     box-shadow: 1px 1px 2px black;}
 
 .members-1998pB {
-	background: rgba(0,0,0,0.35)!important;
+	background: rgba(0,0,0,0)!important;
+	/* rgba(0,0,0,0.45) for darker members list */
 }
 .membersGroup-v9BXpm {
     color: #fff !important; /*
