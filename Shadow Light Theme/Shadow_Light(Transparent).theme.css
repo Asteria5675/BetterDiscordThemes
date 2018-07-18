@@ -178,7 +178,7 @@ Chat Channel/ Private Channel Bar
 	border-bottom:1px solid var(--sec-color) !important;
 }
 .message-group {
-	background: rgba(0,0,0,0.45);
+	background: rgba(0,0,0,0.65);
 	box-sizing: border-box;
     display: -webkit-box;
     display: -ms-flexbox;
