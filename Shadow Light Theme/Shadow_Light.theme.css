@@ -1746,3 +1746,8 @@ color: #fff !important; }
     background-repeat: no-repeat !important;
     margin-left: 20%;
 }
+.theme-dark .number-3ceIrJ {
+    background: #2e2e2e !important;
+    border: 2px solid var(--sec-color);
+    border-radius: 0;
+}
