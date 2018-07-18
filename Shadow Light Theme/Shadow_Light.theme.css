@@ -1710,3 +1710,39 @@ background: #2e2e2e !important;
 border-radius: 0px !important;
 border: 2px solid var(--sec-color) !important;
 }
+
+.create-guild-container.deprecated { 
+	background: #2e2e2e !important;
+	border-radius: 0px !important;
+	border: 2px solid var(--sec-color);
+}
+.create-guild-container.deprecated .action,
+.create-guild-container.deprecated .create-or-join .form-inner {
+    background: rgba(225,225,225,0.85) !important;
+}
+.form-deprecated .btn-primary, .form.deprecated .btn-primary,
+.create-guild-container.deprecated button.btn.btn-primary {
+    background: var(--dark-red);
+}
+.create-guild-container.deprecated .action.create .action-header,
+.form-deprecated header, .form.deprecated header {
+color: #fff !important; }
+.create-guild-container.deprecated .action:hover.create .btn,
+.form-deprecated .btn-primary:hover, .form.deprecated .btn-primary:hover{
+    background-color: var(--dark-red);
+	opacity: 0.9;
+}
+.create-guild-container.deprecated .action.create .action-icon {
+    background: url(https://i.imgur.com/rMERgNN.png) !important;
+    background-position: center;
+    background-size: 140px 96px !important;
+    background-repeat: no-repeat !important;
+    margin-left: 20%;
+}
+.create-guild-container.deprecated .action.join .action-icon {
+	background: url(https://i.imgur.com/giPi3pt.png) !important;
+    background-position: center;
+    background-size: 140px 96px !important;
+    background-repeat: no-repeat !important;
+    margin-left: 20%;
+}
