@@ -763,7 +763,109 @@ Settings
 .userSettingsVoice-iwdUCU .inputSensitivityToggle-2LKb8o.manual-36Evg9 .microphone-2rtdHw {
     background-color: transparent !important;
 }
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+    background-color: #2e2e2e !important;
+    text-shadow: 2px 2px 4px black;
+}
+.themeDefault-24hCdX.sizeDefault-2YlOZr {
+    background-color: var(--main-color);
+}
 
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+	background-color: var(--dark-red) !important;
+}
+.theme-dark .user-settings-games .not-detected,
+.theme-light .user-settings-games .not-detected,
+.barFill-23-gu-,
+.themeDefault-24hCdX.valueChecked-m-4IJZ {
+	background-color: var(--dark-red) !important;
+}
+.bar-2Qqk5Z {
+    background-color: var(--main-color) !important;
+}
+.userSettingsVoice-iwdUCU .inputSensitivityToggle-2LKb8o.manual-36Evg9 .microphone-2rtdHw {
+    background-color: transparent !important;
+}
+.input-cIJ7To.focused-1mmYsC {
+    border-color: var(--dark-red) !important;
+}
+.uploadModal-2ifh8j .footer-3mqk7D,
+.uploadModal-2ifh8j,
+.search-results-wrap .action-buttons .jump-button,
+.botTagRegular-2HEhHi,
+.questionMark-CWEQZn {
+	background: var(--dark-red) !important;
+}
+
+.uploadModal-2ifh8j .footer-3mqk7D .button {
+	background: #2e2e2e !important;
+	color: #fff !important;
+	border: 1px solid var(--sec-color);
+}
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+	border-color: var(--sec-color) !important;
+}
+.lookOutlined-3sRXeN.colorRed-1TFJan {
+    background: rgba(0,0,0,0.35)
+}
+.description-3_Ncsb,
+.labelDescriptor-1PqHgD {
+    color: #fff !important;
+}
+.theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+    background-color: rgba(0,0,0,0.35) !important;
+    border-color: var(--sec-color) !important;
+}
+.need-help-modal.deprecated a {
+	color: #fff !important;
+}
+.need-help-modal.deprecated .header input[type=text],
+.need-help-modal.deprecated .header input[type=text]:focus {
+	border-color: rgba(0,0,0,0.95) !important;
+}
+.need-help-modal.deprecated .header input[type=text],
+.need-help-modal.deprecated .header input[type=text]:focus,
+.need-help-modal.deprecated .footer,
+.form-inner.loading {
+	box-shadow: 0px 0px rgba(0,0,0,0) !important;
+    background: var(--main-color) !important;
+}
+.need-help-modal.deprecated .footer {
+	border-color: var(--sec-color) !important;
+	color: rgba(255,255,255,0.75) !important;
+}
+.need-help-modal.deprecated .header,
+.bda-slist .bda-footer button,
+.bd-pfbtn {
+	background: var(--dark-red) !important;
+}
+.bda-slist .bda-footer a {
+	color: var(--dark-red) !important;
+}
+.modal-3HD5ck,
+.quickswitcher-3JagVE {
+    background: var(--main-color) !important;
+    border-radius: 0px;
+    border: 1px solid var(--sec-color);
+}
+ .footer-2yfCgX {
+    background-color: rgba(0,0,0,0.25)!important;
+}
+.card-3Qj_Yx {
+    background: var(--main-color)!important;
+    border-color: var(--sec-color) !important;
+}
+.checked-3_4uQ9 {
+    background-color: var(--dark-red) !important;
+    border-color: var(--sec-color) !important;
+}
+.checkbox-1ix_J3 svg g {
+    display: none;
+}
+.checkbox .checkbox-inner input[type=checkbox]:checked+span {
+    background-color: var(--dark-red) !important;
+    border-color: var(--sec-color) !important;
+}
 	/* BD  SETTINGS */
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
 	background: #2e2e2e;
@@ -809,4 +911,9 @@ Settings
 .ui-standard-sidebar-view .content-region,
 .theme-dark .ui-standard-sidebar-view .content-region {
     background: rgba(0,0,0,0.45) !important;
+}
+.resultsGroup-r_nuzN {
+background: #2e2e2e !important;
+border-radius: 0px !important;
+border: 2px solid var(--sec-color) !important;
 }
