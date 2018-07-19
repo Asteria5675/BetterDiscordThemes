@@ -951,3 +951,13 @@ color: #fff !important; }
     border: 2px solid var(--sec-color);
     border-radius: 0;
 }
+.theme-dark .messagesPopoutWrap-1MQ1bW {
+    background-color: #2e2e2e !important;
+    border: 1px solid var(--sec-color) !important;
+}
+.theme-dark .messagesPopoutWrap-1MQ1bW .header-ykumBX {
+background-color: rgba(0,0,0,0.25) !important; }
+.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .emptyPlaceholder-1zh-Eu .body-bvcIjN {
+color: #fff !important; }
+.create-guild-container.deprecated .form.deprecated .form-inner {
+background: rgba(0,0,0,0.25) !important; }
