@@ -1,12 +1,15 @@
-//META{"name":"Shadow Light(Transparent)","description":"Dark style theme with shadows and light color borders. Transparent Version use with TransparencyPatcher Plugin","author":"Asteria","version":"1.0.0"}*//{}
+//META{"name":"Shadow Light(Transparent)","description":"Dark style theme with shadows and light color borders. Transparent Version use with TransparencyPatcher Plugin","author":"Asteria","version":"1.1.1"}*//{}
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
 /* Main Variables
 - Change the color variables if desired*/
 
 :root {
+	/* Main Color */
 --main-color: #2e2e2e;
+	/* Border Colors */
 --sec-color: gray;
+	/* Button color and other aspects */
 --dark-red: rgba(100,15,30,1);
 }
 
@@ -14,17 +17,8 @@
 --------------------------------------------------------
 >>>>>>>>>>>>>>>>>>>>>>>Background<<<<<<<<<<<<<<<<<<<<<<<
 --------------------------------------------------------
-READ INSTRUCTIONS BELOW if you want to 
-replace the background
- Custom Image Background Instruction
+ Custom Image Background
  ===================================
- 
- - To replace the current background
-replace the link with a desired image url LINK
-	Link Requires:
-	1 - 'https://'
-	2 - '.png' or '.jpg' ,etc.
-*//*
 .appMount-3VJmYg,
 .container-2lgZY8,
 .chat,
@@ -36,19 +30,13 @@ replace the link with a desired image url LINK
 		background: url(https://i.imgur.com/ucW2TmV.png) !important;
 		background-size: cover !important
 }
-*/
+
 
 /* 
-Default Settings
-OR
+
 Transparent To Desktop 
 	- ONLY IF TransparencyPatcher Plugin is enabled
-- To be compatible with TransparencyPatcher 
-1 - Enable the following css by deleting the [ "*" + "/" ] after the BELOW
-2 - Disable the background image by inserting a [ "/" + "*" ]
-	on a line after that follows
-	the "....jpg instructions ABOVE
-*/
+*//*
 
 .app,
 .callout-backdrop,
@@ -63,8 +51,11 @@ Transparent To Desktop
 Core Elements
 -------------
 */
-
+/*
 div>*:not(code) {
+    font-family: 'Roboto Condensed', sans-serif;
+} */
+::-webkit-input-placeholder, body, button, input, select, textarea {
     font-family: 'Roboto Condensed', sans-serif;
 }
 .footer-1W7DZI,
@@ -695,7 +686,7 @@ div#bd-pub-button {
 	top: 0 !important;
 }
 
-	/* Guilds Popout */
+	/* Guilds Popout(Disabled) *//*
 	
 .guilds-wrapper{
     width:0px !important;
@@ -846,7 +837,7 @@ Settings
     background-color: rgba(0,0,0,0.25)!important;
 }
 .card-3Qj_Yx {
-    background: var(--main-color)!important;
+    background: #2e2e2e!important;
     border-color: var(--sec-color) !important;
 }
 .checked-3_4uQ9 {
@@ -854,7 +845,7 @@ Settings
     border-color: var(--sec-color) !important;
 }
 .checkbox-1ix_J3 svg g polyline{
-    stroke:var(--sec-color);
+    stroke: #2e2e2e;
 }
 .checkbox .checkbox-inner input[type=checkbox]:checked+span {
     background-color: var(--dark-red) !important;
@@ -962,3 +953,38 @@ background-color: rgba(0,0,0,0.25) !important; }
 color: #fff !important; }
 .create-guild-container.deprecated .form.deprecated .form-inner {
 background: rgba(0,0,0,0.25) !important; }
+
+    /* 7/25 Fix */
+
+    .containerCozy-jafyvG {
+        background: rgba(0,0,0,0.45);
+        box-sizing: border-box;
+        display: block;
+        margin-left: 20px;
+        margin-right: 6px;
+        padding: 15px  !important;
+        user-select: text;
+        word-wrap: break-word;
+        margin-bottom: 15px !important;
+        border: 1px solid var(--sec-color) !important;
+        padding-left: 12px !important;
+        -moz-user-select: text;
+        -ms-user-select: text;
+        -webkit-box-sizing: border-box;
+        -webkit-user-select: text;
+        border-bottom: 1px solid rgba(0,0,0,0.125);
+    }
+
+    .messageGroupWrapper-o-Zw7G {
+        background-color: transparent !important;
+        border: 0px solid rgba(0,0,0,0) !important;
+        padding-top: 20px;
+    }
+    .message-1PNnaP {
+        margin-left: -15px !important;
+    }
+		/* Guilds Change */
+.guilds-wrapper{
+    border-right:1px solid var(--sec-color);
+    width:70px;
+}
