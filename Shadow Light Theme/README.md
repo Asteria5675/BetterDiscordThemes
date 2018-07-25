@@ -19,5 +19,6 @@ Customizable CSS Color Values and Background
 <img src="https://i.imgur.com/dPTTyqB.png" 780px 600px>
 <h2> Change Logs </h2>
 Version: 1.0.0 - Initial Release
+<br> </br>
 Version: 1.1.1 - Fixed Chat, Guilds no longer expand on hover, and other minor changes
 
