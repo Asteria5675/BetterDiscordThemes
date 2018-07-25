@@ -1,0 +1,43 @@
+/* Insert this in .theme.css file */
+/* SL version 1.1.1 fixes/additions */
+
+/*This is NOT a .theme.css file  as this file serves to be a list of add ons/fixes*/
+/* Newest on top */
+
+
+/* 7/25 update fix */
+
+.checkbox-1ix_J3 svg g polyline{
+    stroke: #2e2e2e !important;
+}
+.card-3Qj_Yx {
+    background: #2e2e2e !important;
+}
+    .containerCozy-jafyvG {
+        background: rgba(0,0,0,0.45);
+        box-sizing: border-box;
+        display: block;
+        margin-left: 20px;
+        margin-right: 6px;
+        padding: 15px  !important;
+        user-select: text;
+        word-wrap: break-word;
+        margin-bottom: 15px !important;
+        border: 1px solid var(--sec-color) !important;
+        padding-left: 12px !important;
+        -moz-user-select: text;
+        -ms-user-select: text;
+        -webkit-box-sizing: border-box;
+        -webkit-user-select: text;
+        border-bottom: 1px solid rgba(0,0,0,0.125);
+    }
+
+    .messageGroupWrapper-o-Zw7G {
+        background-color: transparent !important;
+        border: 0px solid rgba(0,0,0,0) !important;
+        padding-top: 20px;
+    }
+    .message-1PNnaP {
+        margin-left: -15px !important;
+    }
+    /* end of 7/25 update fix */
