@@ -475,6 +475,8 @@ span#bd-settings-sidebar {
 .bda-slist .bda-footer a{color:#0096cf !important }
 .checkbox .checkbox-inner input[type=checkbox]:checked+span {background: #0e0e0e; border-color: #0e0e0e}
 /* Misc */
+#app-mount .operations-36ENbA {color: var(--main-text-color)}
+.operations-36ENbA>a {color: #0096cf}
 #app-mount .searchAnswer-3Dz2-q, #app-mount .searchFilter-2ESiM3,
 #app-mount .reaction {background: rgba(63, 63, 63, 0.918)}
 .idle-3DEnRT, .online-2S838R, .dnd-1_xrcq,
