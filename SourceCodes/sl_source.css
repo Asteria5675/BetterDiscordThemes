@@ -237,7 +237,7 @@ display: inline-block !important;}
     min-height: 150px;
     background: rgba(0,0,0,0.5);
     padding: 12px !important;
-    border-radius: 0 75px 0 75px;
+    border-radius: 0 75px 0 75px !important;
     margin-bottom: 15px;
 }
 
@@ -446,7 +446,7 @@ Private Channels
 	.private-channels .channel:hover .avatar-small {
     box-shadow: 1px 1px 2px black;}
 
-.members-1998pB {
+#app-mount .members-1998pB {
 	background: rgba(0,0,0,0);
 	/* rgba(0,0,0,0.45) for darker members list */
 }
