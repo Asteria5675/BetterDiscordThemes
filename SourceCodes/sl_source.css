@@ -874,7 +874,7 @@ background: rgba(0,0,0,0.25) ; }
 
     /* 7/25 Fix */
 .containerCompact-3V0ioj,
-    .containerCozy-jafyvG {
+    .chat .containerCozy-jafyvG {
         background: rgba(0,0,0,0.65);
         box-sizing: border-box;
         display: block;
