@@ -202,7 +202,7 @@ background-color: transparent;}
 	margin-left: 20px;
 }
 .autocomplete-1vrpmx, .autocomplete-i9yVHs {
-	background: rgba(10,10,10,1);
+	background: rgba(10,10,10,1) !important;
 }
 /* 
 -----------
@@ -873,8 +873,7 @@ color: #fff ; }
 background: rgba(0,0,0,0.25) ; }
 
     /* 7/25 Fix */
-.containerCompact-3V0ioj,
-    .chat .containerCozy-jafyvG {
+.containerCompact-3V0ioj, .containerCozy-jafyvG {
         background: rgba(0,0,0,0.65);
         box-sizing: border-box;
         display: block;
@@ -890,7 +889,7 @@ background: rgba(0,0,0,0.25) ; }
         -ms-user-select: text;
         -webkit-box-sizing: border-box;
         -webkit-user-select: text;
-        border-bottom: 1px solid rgba(0,0,0,0.125) !important;
+        border-bottom: 1px solid var(--sec-color) !important;
     }
 
     .messageGroupWrapper-o-Zw7G {
