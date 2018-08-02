@@ -21,4 +21,5 @@ Customizable CSS Color Values and Background
 Version: 1.0.0 - Initial Release
 <br> </br>
 Version: 1.1.1 - Fixed Chat, Guilds no longer expand on hover, and other minor changes
-
+<br> </br>
+Version: 1.2.0 - Fixed Guilds Break, New Mentions Color, Games Tab Themed Better, etc.
