@@ -189,7 +189,7 @@ background-color: transparent;}
 #app-mount .messagesWrapper-3lZDfY .messages-3amgkR .divider-3gKybi.dividerRed-MKoLlr>span,
 .theme-dark .friends-table .messages .divider.divider-red>span, 
 .theme-dark .messages-wrapper .messages .divider.divider-red>span {
-    color: rgba(240,71,71,.8);
+    /*color: rgba(240,71,71,.8);*/
     width: 100%;
     text-align: center;
 }
