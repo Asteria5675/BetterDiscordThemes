@@ -5,6 +5,8 @@ Core Elements
 */
 .appMount-3VJmYg,
 .container-2lgZY8,
+.chat-3bRxxu,
+.chat-3bRxxu .messagesWrapper-3lZDfY,
 .chat,
 .chat .messages-wrapper {
 	background: transparent !important
@@ -29,14 +31,14 @@ Core Elements
 ::-webkit-scrollbar-track-piece {
     display: none !important;
 }
-.chat ::-webkit-scrollbar {
+.chat-3bRxxu ::-webkit-scrollbar {
 	border: 0 !important;
 	width: 8px !important;
 }
-.chat ::-webkit-scrollbar-thumb {
+.chat-3bRxxu ::-webkit-scrollbar-thumb {
 	border: 2px solid var(--sec-color) !important;
 }
-.chat .scroller-wrap .scroller {
+.chat-3bRxxu .scroller-wrap .scroller {
     flex: 0.997;
 }
 #friends ::-webkit-scrollbar-thumb,
@@ -94,6 +96,7 @@ Chat Channel/ Private Channel Bar
     /* text-shadow: 1px 1px 2px black; */
     background: transparent; }
 
+.chat-3bRxxu .dividerRed-MKoLlr>div, .chat-3bRxxu .messagesWrapper-3lZDfY
 .chat .divider>div, .chat .messages-wrapper {
     -ms-flex: 1;
     -webkit-box-flex: 1;
@@ -125,56 +128,76 @@ Chat Channel/ Private Channel Bar
     -webkit-user-select: text;
     border-bottom: 1px solid rgba(0,0,0,0.125);
 }
-
+.chat-3bRxxu .hasMore-3e72_v button,
 .chat .has-more button {
     color: #fff;
 }
+.chat-3bRxxu .jumpToPresentBar-9P20AM,
 .chat .jump-to-present-bar {
     background-color: var(--dark-red)
 }
+.chat-3bRxxu .newMessagesBar-mujexs,
 .chat .new-messages-bar {
 background-color: #f04747 }
 	/* Dividers */
 	
-
+.messages-3amgkR .messagesWrapper-3lZDfY .divider-3gKybi:not(.red-1YQ4s7) span,
 .messages-wrapper .messages .divider:not(.red) span {
     background: transparent !important;
     color: #fff !important;
 	text-transform: uppercase;
 }
-
+.chat-3bRxxu .divider-3gKybi,
 .chat .divider {
 	height: 1.1em;
 	background: transparent;
 }
+#app-mount .friends-table .messages-3amgkR .divider-3gKybi span,
+#app-mount .friends-table .messages-3amgkR .divider-3gKybi:before,
+#app-mount .messagesWrapper-3lZDfY .messages-3amgkR .divider-3gKybi span,
+#app-mount .messagesWrapper-3lZDfY .messages-3amgkR .divider-3gKybi:before,
+#app-mount .messagesWrapper-3lZDfY .messages-3amgkR .divider-3gKybi:not(.red-1YQ4s7) div,
+#app-mount .friends-table .messages-3amgkR .divider-3gKybi:not(.red-1YQ4s7) div,
 #app-mount .friends-table .messages .divider:not(.red) div,
 #app-mount .messages-wrapper .messages .divider:not(.red) div,
-#app-mount .friends-table .messages .divider:before, #app-mount .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span {
+#app-mount .friends-table .messages .divider:before, 
+#app-mount .friends-table .messages .divider span, 
+.theme-dark .messages-wrapper .messages .divider:before, 
+.theme-dark .messages-wrapper .messages .divider span {
 background-color: transparent;}
 
-	/* New Messages */
-	.theme-dark .friends-table .messages .divider.divider-red>span, .theme-dark .messages-wrapper .messages .divider.divider-red>span {
+    /* New Messages */
+#app-mount .messagesWrapper-3lZDfY .messages-3amgkR .divider-3gKybi.dividerRed-MKoLlr>span,
+#app-mount .friends-table .messages-3amgkR .divider-3gKybi.dividerRed-MKoLlr>span,
+.theme-dark .friends-table .messages .divider.divider-red>span, 
+.theme-dark .messages-wrapper .messages .divider.divider-red>span {
     color: rgba(240,71,71,.8);
     color: #fff;
     border-radius: 0;
     background-color: #f04747;
     background: #f04747;
 }
-.theme-dark .friends-table .messages .divider.divider-red>div, .theme-dark .messages-wrapper .messages .divider.divider-red>div {
+#app-mount .friends-table .messages-3amgkR .divider-3gKybi.dividerRed-MKoLlr>div,
+#app-mount .messagesWrapper-3lZDfY .messages-3amgkR .divider-3gKybi.dividerRed-MKoLlr>div,
+.theme-dark .friends-table .messages .divider.divider-red>div, 
+.theme-dark .messages-wrapper .messages .divider.divider-red>div {
     background: #f04747;
     opacity: 1;
     height: 1em;
 }
-.theme-dark .friends-table .messages .divider.divider-red>span, .theme-dark .messages-wrapper .messages .divider.divider-red>span {
+#app-mount .friends-table .messages-3amgkR .divider-3gKybi.dividerRed-MKoLlr>span,
+#app-mount .messagesWrapper-3lZDfY .messages-3amgkR .divider-3gKybi.dividerRed-MKoLlr>span,
+.theme-dark .friends-table .messages .divider.divider-red>span, 
+.theme-dark .messages-wrapper .messages .divider.divider-red>span {
     color: rgba(240,71,71,.8);
     width: 100%;
     text-align: center;
 }
-
+#app-mount .chat-3bRxxu>.content-yTz4x3, .chat-3bRxxu form,
 .theme-dark .chat>.content, .theme-dark .chat form {
     background: transparent !important;
 }
-.theme-dark .chat, .chat {
+.chat-3bRxxu, .chat {
 	background: transparent !important;
 }
 .spinner-wandering-cubes .spinner-item {
@@ -184,7 +207,8 @@ background-color: transparent;}
 .videoBackgroundTransition-3wpOSl {
     background: rgba(0,0,0,0.45);
 }
-	/* Message Area */
+    /* Message Area */
+.chat-3bRxxu form,
 .chat form {
 	margin-left: 0 !important;
     background: rgba(0,0,0,0.65);
@@ -202,7 +226,7 @@ background-color: transparent;}
 	margin-left: 20px;
 }
 .autocomplete-1vrpmx, .autocomplete-i9yVHs {
-	background: rgba(10,10,10,1) !important;
+	background: rgba(10,10,10,1);
 }
 /* 
 -----------
@@ -237,7 +261,7 @@ display: inline-block !important;}
     min-height: 150px;
     background: rgba(0,0,0,0.5);
     padding: 12px !important;
-    border-radius: 0 75px 0 75px !important;
+    border-radius: 0 75px 0 75px;
     margin-bottom: 15px;
 }
 
@@ -446,8 +470,8 @@ Private Channels
 	.private-channels .channel:hover .avatar-small {
     box-shadow: 1px 1px 2px black;}
 
-#app-mount .members-1998pB {
-	background: rgba(0,0,0,0) !important;
+.members-1998pB {
+	background: rgba(0,0,0,0);
 	/* rgba(0,0,0,0.45) for darker members list */
 }
 .membersGroup-v9BXpm {
@@ -873,7 +897,8 @@ color: #fff ; }
 background: rgba(0,0,0,0.25) ; }
 
     /* 7/25 Fix */
-.containerCompact-3V0ioj, .containerCozy-jafyvG {
+.containerCompact-3V0ioj,
+    .containerCozy-jafyvG {
         background: rgba(0,0,0,0.65);
         box-sizing: border-box;
         display: block;
@@ -889,7 +914,7 @@ background: rgba(0,0,0,0.25) ; }
         -ms-user-select: text;
         -webkit-box-sizing: border-box;
         -webkit-user-select: text;
-        border-bottom: 1px solid var(--sec-color) !important;
+        border-bottom: 1px solid rgba(0,0,0,0.125);
     }
 
     .messageGroupWrapper-o-Zw7G {
