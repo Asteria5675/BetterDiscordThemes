@@ -32,8 +32,7 @@
  =======================
 
 *//*
-.app,
-.callout-backdrop {
+.app {
 		background: url(https://i.imgur.com/ucW2TmV.png) !important;
 
 		background-size: cover !important
@@ -47,6 +46,8 @@ Transparent To Desktop
 .callout-backdrop,
 .appMount-3VJmYg,
 .container-2lgZY8,
+.chat-3bRxxu,
+.chat-3bRxxu .messagesWrapper-3lZDfY,
 .chat,
 .chat .messages-wrapper {
 	background: transparent !important
