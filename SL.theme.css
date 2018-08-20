@@ -6,30 +6,34 @@
 - Change the color variables if desired*/
 
 :root {
-	/* Main Color */
+/* Main Color */
 --main-color: #2e2e2e;
-	/* Border Colors */
---sec-color: gray;
-	/* Button color and other aspects */
+/* Border Colors */
+--sec-color: rgb(141, 136, 136);
+/* Button color and other aspects */
 --dark-red: rgba(100,15,30,1);
+/* Background Opacity to image >number within [0,1)*/
+--bg-opacity: 0;
+/* Message Background Color/Opacity */
+--message-bg: rgba(0,0,0,0.65);
 }
 
-/* 
---------------------------------------------------------
->>>>>>>>>>>>>>>>>>>>>>>Background<<<<<<<<<<<<<<<<<<<<<<<
---------------------------------------------------------
- Custom Image Background
- ===================================
-*/
 
-.appMount-3VJmYg,
-.container-2lgZY8,
-.chat,
-.chat .messages-wrapper {
+/* Background Image */
+
+.layers-3iHuyZ {
+    background-color: rgba(0,0,0,var(--bg-opacity))!important;
+}
+.container-2lgZY8 {
 	background: transparent !important
 }
-.app,
-.callout-backdrop {
-		background: url(https://i.imgur.com/ucW2TmV.png) !important;
-		background-size: cover !important
+.app, .app-19_DXt {
+		background: url(https://i.imgur.com/ucW2TmV.png) center/cover !important;
+}
+.appMount-3VJmYg, .typeWindows-1za-n7.titleBar-AC4pGV {
+    background: #0e0e0e !important
+}
+.container-16j22k {
+    background: url(https://i.imgur.com/ucW2TmV.png) no-repeat center/cover;
+    -webkit-mask: -webkit-radial-gradient( rgba(0,0,0,1), rgba(0,0,0,0.95))
 }
