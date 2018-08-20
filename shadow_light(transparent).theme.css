@@ -3,35 +3,32 @@
 @import url('https://asteria5675.github.io/BetterDiscordThemes/SourceCodes/sl_source.css');
 
 /* Main Variables
-
 - Change the color variables if desired*/
 
-
-
 :root {
-
+/* Main Color */
 --main-color: #2e2e2e;
-
---sec-color: gray;
-
+/* Border Colors */
+--sec-color: rgb(141, 136, 136);
+/* Button color and other aspects */
 --dark-red: rgba(100,15,30,1);
-
+/* Background Opacity to image >number within [0,1)*/
+--bg-opacity: 0;
+/* Message Background Color/Opacity */
+--message-bg: rgba(0,0,0,0.65);
 }
 
 
-
-/* 
-
---------------------------------------------------------
-
->>>>>>>>>>>>>>>>>>>>>>>Background<<<<<<<<<<<<<<<<<<<<<<<
-
---------------------------------------------------------
-
- Custom Image Background
- =======================
-
-*//*
+/* Background Image */
+/*
+.container-2lgZY8 {
+	background: transparent !important
+}
+.app, .app-19_DXt {
+		background: url(https://i.imgur.com/ucW2TmV.png) center/cover !important;
+}
+*/
+/*
 .app {
 		background: url(https://i.imgur.com/ucW2TmV.png) !important;
 
@@ -42,9 +39,16 @@
 Transparent To Desktop 
 	- ONLY IF TransparencyPatcher Plugin is enabled 
 */
+.container-16j22k {
+    background: url(https://i.imgur.com/ucW2TmV.png) no-repeat center/cover;
+    -webkit-mask: -webkit-radial-gradient( rgba(0,0,0,1), rgba(0,0,0,0.95))
+}
+.layers-3iHuyZ {
+    background-color: rgba(0,0,0,var(--bg-opacity))!important;
+}
+
 .app,
 .callout-backdrop,
-.appMount-3VJmYg,
 .container-2lgZY8,
 .chat-3bRxxu,
 .chat-3bRxxu .messagesWrapper-3lZDfY,
