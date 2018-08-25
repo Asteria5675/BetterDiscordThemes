@@ -1,4 +1,4 @@
-//META{"name":"Light and Dark","description":"Another blinding light theme with mixture of dark colors","author":"Asteria", "version":"1.0.0"}*//{}
+//META{"name":"Light and Dark","description":"Another blinding light theme with mixture of dark colors","author":"Asteria", "version":"0.9.5"}*//{}
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:300i');
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans');
 @import url('https://asteria5675.github.io/BetterDiscordThemes/SourceCodes/LDsource.css');
@@ -12,10 +12,13 @@
      #f2f2f2,
      #f3f3f3,
      rgba(226, 219, 219, 0.75) 99.5%);
---main-bg-color: rgb(210,210,210); 
---main-text-color: #000;
---sec-text-color: #dddddd;
+--main-bg-color: #dcd7d7;
+--sec-bg-color: #0e0e0e;
+--main-text-color: rgb(10, 9, 9);
+--sec-text-color: #d4cdcd;
 --button-color: #0e0e0e;
 --profile-size: 60px;
---sec-color: rgba(0, 58, 165, 0.45) ;
+--sec-color: #16151c;
+--border: hsla(0, 2%, 77%, 0.411);
+--border-hover: hsla(0, 2%, 77%, 0.801);
 }
