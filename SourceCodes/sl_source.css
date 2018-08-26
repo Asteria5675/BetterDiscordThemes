@@ -633,19 +633,14 @@ Game Tab
 Guilds
 ------
  */
- .scrollerWrap-1IAIlv {width: 78px}
- .theme-dark .guild-1EfMGQ .guildInner-3DSoA4 a {
-    width: 45px;
-    height: 45px;
- }
+
 #app-mount .guildsWrapper-5TJh6A,
 .guilds-wrapper {
 	border-right: 1px solid var(--sec-color);
-    width: 70px ;
 	background: rgba(0,0,0,0.65);
 }
 .unread-1Dp-OI {
-	color: var(--sec-color);
+    color: var(--sec-color);
     width: .75em;
     height: .75em;
     transform: rotate(45deg);
@@ -664,14 +659,6 @@ Guilds
 	background-size: 60px 60px;
 }
 
-.guilds-wrapper .guilds .guild .guild-inner {
-    background: url(https://i.imgur.com/vbSJz26.gif) no-repeat center/cover;
-    width: 100%;
-    height: 95%;
-    background-size: 45px 45px;
-	width: 45px;
-	height: 45px;
-}
 .friendsOnline-_wi_fM,
 .guilds-wrapper .guilds .friends-online {
     color: #fff ;
@@ -688,32 +675,14 @@ div#bd-pub-button {
 .guilds-wrapper .dms .guild-inner {
 	border-radius: 5px;
 }
-.guildsError-3cFMtY,
-.guildsAdd-21_IdK,
-.guildIcon-CT-ZDq,
-.guildInner-3DSoA4,
-.guilds-wrapper .guilds .guild .guild-inner a.action,
-.guilds-wrapper .guilds .guild .guild-inner,
-.guilds-wrapper .guilds .guild-icon  {
-	width: 45px ;
-    height: 45px ;
-}
-
-.guilds-wrapper .guilds .guild.selected .guild-inner {
-    border-radius: 5px;
-    border: 1px solid var(--sec-color);
-}
-.guild-1EfMGQ.selected-ML3OIq:before,
-.guilds-wrapper .guilds .guild.selected:before {
-	height: 35px
+#app-mount .guild-1EfMGQ.selected-ML3OIq:before {
+	background: var(--dark-red)
 }
 
 .guildsError-3cFMtY,
 .guildsAdd-21_IdK,
 .guilds-wrapper .guilds-add, 
 .guilds-wrapper .guilds-error {
-    width: 45px;
-    height: 45px ;
     font-family: Arial !important;
     align-content: center;
 }
@@ -909,7 +878,7 @@ input#guild-name {
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
 	background: #2e2e2e;
 }
-#bd-settings-sidebar .ui-tab-bar-item.selected, 
+#app-mount #bd-settings-sidebar .ui-tab-bar-item.selected, 
 .side-8zPYf6 .itemSelected-1qLhcL {
 	background-color: var(--dark-red) ;
 }
