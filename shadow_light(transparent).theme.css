@@ -47,12 +47,9 @@ Transparent To Desktop
     background-color: rgba(0,0,0,var(--bg-opacity))!important;
 }
 
-.app,
-.callout-backdrop,
+.app, .appMount-3VJmYg,
 .container-2lgZY8,
 .chat-3bRxxu,
-.chat-3bRxxu .messagesWrapper-3lZDfY,
-.chat,
-.chat .messages-wrapper {
+.chat-3bRxxu .messagesWrapper-3lZDfY {
 	background: transparent !important
 }
