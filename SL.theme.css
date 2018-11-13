@@ -21,17 +21,14 @@
 
 /* Background Image */
 
-.layers-3iHuyZ {
-    background-color: rgba(0,0,0,var(--bg-opacity))!important;
+#app-mount {
+	background: url(https://i.imgur.com/ucW2TmV.png) center/cover;
 }
-.container-2lgZY8 {
-	background: transparent !important
-}
-.app, .app-19_DXt {
-		background: url(https://i.imgur.com/ucW2TmV.png) center/cover !important;
-}
-.appMount-3VJmYg, .typeWindows-1za-n7.titleBar-AC4pGV {
-    background: #0e0e0e !important
+#app-mount::before {
+	content: '';
+	width: 100vw;
+	height: 22px;
+	background: rgba(0,0,0,.45);
 }
 .container-16j22k {
     background: url(https://i.imgur.com/ucW2TmV.png) no-repeat center/cover;
