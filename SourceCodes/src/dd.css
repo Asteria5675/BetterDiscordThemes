@@ -989,6 +989,8 @@
     height: 35px;
     left: 5.5px;
     top: 4.5px;
+    background-position-x: -0.5px;
+    background-position-y: -0.5px;
 }
 .cardPrimaryEditable-3KtE4g:not([style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"]):active .info-3LOr12::after {
     content: '';
