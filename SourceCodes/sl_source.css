@@ -476,7 +476,7 @@ Game Tab
 Guilds
 ------
  */
-#app-mount .guildsWrapper-5TJh6A {
+#app-mount .wrapper-1Rf91z, #app-mount .da-flex > .da-wrapper {
 	border-right: 1px solid var(--sec-color);
 	background: rgba(0,0,0,0.65);
 }
@@ -489,17 +489,15 @@ Guilds
     top: 45%;
 	border-radius: 0 ;
 }
-.homeIcon-1FoKUJ g,
-.guilds-wrapper .guilds .home-icon g {
-    display: none !important;
-}
-.guildsWrapper-5TJh6A svg.homeIcon-1FoKUJ {
+svg.homeIcon-tEMBK1, .da-homeIcon{
     background: url(https://i.imgur.com/vbSJz26.gif);
     background-position: center;
 	background-size: 65px 65px;
+	color: transparent !important;
+	z-index: 2;
 }
 
-.friendsOnline-_wi_fM {
+.theme-dark .da-friendsOnline, .theme-dark .friendsOnline-2JkivW{
     color: #fff ;
     font-weight: 400;
 }
@@ -514,8 +512,8 @@ Guilds
 	background: var(--dark-red)
 }
 
-.guildsError-3cFMtY,
-.guildsAdd-21_IdK {
+.da-guildsError,
+.da-guildsAdd {
     font-family: Arial !important;
     align-content: center;
 }
