@@ -2,7 +2,7 @@
 #app-mount {
     background-color: #1a1a1a;
 }
-.da-guildsWrapper,
+.da-flex > .da-wrapper,
 .base-3dtUhz {
     border-radius: 0;
 }
@@ -105,13 +105,13 @@
 .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb {
     background-color: rgba(24, 22, 22, 0.75);
 }
-.guildsWrapper-5TJh6A .scroller::-webkit-scrollbar { 
+.da-flex > .da-wrapper .scroller::-webkit-scrollbar { 
     width: 6px;
 }
-.theme-dark .guildsWrapper-5TJh6A .scroller::-webkit-scrollbar-thumb {
+.theme-dark .da-wrapper .scroller::-webkit-scrollbar-thumb {
     background-color: rgba(189, 182, 182, 0.75);
 }
-.theme-light .guildsWrapper-5TJh6A .scroller::-webkit-scrollbar-thumb {
+.theme-light .da-wrapper .scroller::-webkit-scrollbar-thumb {
     background-color: rgba(24, 22, 22, 0.75);
 }
 #app-mount .guildsWrapper-5TJh6A .scroller::-webkit-scrollbar-track-piece {
@@ -1086,51 +1086,33 @@
     background: url(https://asteria5675.github.io/src/themes/svgs/home_icon.svg) center no-repeat; 
     background-size: 45px 45px;
     z-index: 2;
-} 
-.theme-dark .da-guildsAdd {
-    background-color: #0d0d0e;
 }
-.theme-dark .da-guildsAdd {
+.da-homeButton:not([style*="background-color: rgb(47, 49, 54);"]) {
+    background-color: #444 !important;
+    transition: background-color 250ms ease-in-out;
+}
+.theme-dark .da-circleIconButton {
     background-color: #151516;
     border-color: hsla(0, 0%, 93%, 0.5);
 }
-.guild-1EfMGQ:not([style*="transform:"]):first-child .guildInner-3DSoA4 {
-    background: transparent !important;
-}
 
-.guild-1EfMGQ:not(:first-child) .guildInner-3DSoA4 {
-    background-color: transparent !important; 
-}
-
-.guild-1EfMGQ:not([style*="transform:"]):first-child  .guildInner-3DSoA4:not([style*="background-color: rgb(47, 49, 54);"]) {
-    background: #222222 !important;
-    transition: background 750ms cubic-bezier(0.46, 0.12, 0.13, 1.07);
-    transition-delay: 100ms;
-}
-.dms-rcsEnV .guild-1EfMGQ:not([style*="transform:"]):first-child  .guildInner-3DSoA4:not([style*="background-color: rgb(47, 49, 54);"]) {
-    transition-delay: none;
-    background: unset !important;
-}
-.theme-light .homeIcon-1FoKUJ {
-    color: #1e1d1d;
-}
-.theme-dark .friendsOnline-_wi_fM {
+.theme-dark .da-friendsOnline {
     color: #eee;
 }
-.theme-light .friendsOnline-_wi_fM {
+.theme-light .da-friendsOnline {
     color: #010101;
 }
-.theme-dark .guildsWrapper-5TJh6A {
-    background: #121214;
+.theme-dark .da-flex > .da-wrapper {
+    background-color: #232323;
 }
-.theme-light .guildsWrapper-5TJh6A {
+.theme-light .da-flex > .da-wrapper {
     background: #f2f2ff;
 }
-.theme-light .guild-1EfMGQ.selected-ML3OIq:before,
-.theme-light .guild-1EfMGQ.unread-qLkInr:before {
+.theme-light .da-selected:before,
+.theme-light .da-unread:before {
     background-color: #141010;
 }
-.theme-dark .guild-1EfMGQ:not(.selected-ML3OIq).unread-qLkInr:before {
+.theme-dark .da-unread:not(.da-selected):before {
     background-color: #aaa7a7;
 }
 /* Emojis/Emote tab */
