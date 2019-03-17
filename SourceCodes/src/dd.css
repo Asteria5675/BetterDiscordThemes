@@ -2024,6 +2024,8 @@
 .avatarUploaderInner-3UNxY3 {
     background: #010101;
 }
+.da-flex > .da-wrapper.da-large{background-color: transparent !important;}
+.da-avatarUploaderInner {background-size: 100%;}
     /* */
     /* 
     Zere's Old Settings Module 
