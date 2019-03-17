@@ -1108,11 +1108,11 @@
 .theme-light .da-flex > .da-wrapper {
     background: #f2f2ff;
 }
-.theme-light .da-selected:before,
-.theme-light .da-unread:before {
+.theme-light .da-wrapper .da-selected:before,
+.theme-light .da-wrapper .da-unread:before {
     background-color: #141010;
 }
-.theme-dark .da-unread:not(.da-selected):before {
+.theme-dark .da-wrapper .da-unread:not(.da-selected):before {
     background-color: #aaa7a7;
 }
 /* Emojis/Emote tab */
