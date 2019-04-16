@@ -3,6 +3,10 @@
 Core Elements
 -------------
 */
+#app-mount {
+	background-repeat: no-repeat;
+	background-size: center;
+}
 .layers-3iHuyZ {
     background-color: rgba(0,0,0,var(--bg-opacity))!important;
 }
