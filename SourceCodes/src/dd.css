@@ -2110,3 +2110,6 @@ rect[transform] {
 .theme-dark #user-settings .da-contentColumn .da-h2 {
     background-color: #121212;
 }
+.theme-dark .da-children::after {
+    background: none;
+}
