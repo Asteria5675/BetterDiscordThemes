@@ -70,10 +70,7 @@ Core Elements
 	border: 0 !important;
 	width: 8px !important;
 }
-.container-3gCOGc ::-webkit-scrollbar-track-piece,
-.activityFeed-28jde9 ::-webkit-scrollbar-track-piece {
-	display: none;
-}
+
 
 /* 
 ---------------------------------
@@ -460,7 +457,7 @@ Game Tab
 .theme-dark .noChannel-Z1DQK7,
 .theme-dark .applicationStore-1pNvnv ,
 .theme-dark .gameLibrary-TTDw4Y,
-.theme-dark .activityFeed-28jde9,
+.theme-dark .da-activityFeed,
 .theme-dark .root-1BQpZw {
     background-color: rgba(0,0,0,0.25);
 } 
@@ -499,6 +496,7 @@ svg.homeIcon-tEMBK1, .da-homeIcon{
 	background-size: 65px 65px;
 	color: transparent !important;
 	z-index: 2;
+	width: 55px; height: 56px;
 }
 
 .theme-dark .da-friendsOnline, .theme-dark .friendsOnline-2JkivW{
