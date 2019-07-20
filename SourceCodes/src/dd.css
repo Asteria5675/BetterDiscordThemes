@@ -1927,7 +1927,13 @@ div#popout_2 .item-1GzJrl:active {
     transform: scale(0.95);
     transition: 120ms ease-in;
 }
-
+.da-statusIconText *{
+    display: none;
+}
+div#popout_2 .item-1GzJrl {
+    left: 0;
+    top:0;
+}
 /* Misc */
     /* */
     html[style] head ~ body[style] > #app-mount.appMount-3lHmkl .wordmark-2iDDfm::after {
