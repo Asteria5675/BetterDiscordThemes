@@ -2127,3 +2127,12 @@ rect[transform] {
 .theme-dark .da-children::after {
     background: none;
 }
+.theme-dark .da-activityFeed {
+    background-color: #1f1c1c;
+}
+.theme-dark .da-modal:not([style]) {
+    background-color: #191717
+}
+.theme-dark .da-modal .da-footer {
+    background-color: #212121;
+}
