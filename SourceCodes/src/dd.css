@@ -1902,7 +1902,7 @@ div#popout_1 .item-1GzJrl, div#popout_398 .item-1GzJrl , div#popout_2 .item-1GzJ
 div#popout_1, .da-status, div#popout_398 .da-status, div#popout_2 .status-3fQvEa {
     background-color: transparent;
 }
-div#popout_1, div#popout_398 .item-1GzJrl:first-child, div#popout_2 .item-1GzJrl:first-child {
+div#popout_1 .item-1GzJrl:first-child, div#popout_398 .item-1GzJrl:first-child, div#popout_2 .item-1GzJrl:first-child {
     background-color: #43b581;
     transition-delay: 150ms;
 }
