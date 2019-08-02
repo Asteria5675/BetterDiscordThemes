@@ -1899,7 +1899,7 @@ div#popout_1 .item-1GzJrl, div#popout_398 .item-1GzJrl , div#popout_2 .item-1GzJ
     box-shadow: inset -2px -2px 7px 0px rgba(26, 26, 26, 0.75); */
     background-image: linear-gradient(140deg, transparent,rgba(0,0,0,0.15), rgba(0,0,0,.25))
 }
-div#popout_1, .da-status, div#popout_398 .da-status, div#popout_2 .status-3fQvEa {
+div#popout_1 .da-status, div#popout_398 .da-status, div#popout_2 .status-3fQvEa {
     background-color: transparent;
 }
 div#popout_1 .item-1GzJrl:first-child, div#popout_398 .item-1GzJrl:first-child, div#popout_2 .item-1GzJrl:first-child {
