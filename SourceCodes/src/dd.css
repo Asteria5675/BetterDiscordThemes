@@ -1864,7 +1864,7 @@
     background-size: 18px 22px;
 }
 
-/* Status Test */
+/* Status Test *//*
 div#popout_1 .alt-3btY0e .item-1GzJrl{
     display: inline-flex;
     width: 60px;
@@ -1895,8 +1895,7 @@ div#popout_1 .da-menu, div#popout_2 .da-menu {
     color: transparent;
 }
 div#popout_1 .item-1GzJrl, div#popout_2 .item-1GzJrl {
-    transition: 350ms ease-in, box-shadow 500ms ease;/*
-    box-shadow: inset -2px -2px 7px 0px rgba(26, 26, 26, 0.75); */
+    transition: 350ms ease-in, box-shadow 500ms ease;
     background-image: linear-gradient(140deg, transparent,rgba(0,0,0,0.15), rgba(0,0,0,.25))
 }
 div#popout_1 .da-status, div#popout_2 .status-3fQvEa {
