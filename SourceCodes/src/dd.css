@@ -1992,7 +1992,7 @@ div#popout_1 .da-menuItem {
         width: 100px;
         height: 5px;
         font-size: 0.55rem;
-        color: #eee;
+        color: #969696;
         font-weight: 600;
     }
     .typeWindows-1za-n7 {
@@ -2130,15 +2130,15 @@ rect[transform] {
     background: #5f5f5f;
     color: #191818;
 }
-.theme-dark .da-channels .da-content:hover,
-#app-mount .theme-dark .da-selected .da-content {
+.theme-dark a .da-channel:hover,
+#app-mount .theme-dark .da-selected.da-channel {
     background-color: var(--dm-channel-color);
 }
-#app-mount .theme-light .da-selected .da-content {
+#app-mount .theme-light .da-selected.da-channel {
     background-color: var(--lm-channel-color);
 }
 .da-channels .da-content:hover,
-#app-mount .da-selected .da-content {
+#app-mount .da-selected.da-channel {
     background-image: linear-gradient(15deg, transparent, rgba(0,0,0,0.2));
 }
 .da-chat div:not(.da-container)::after {
