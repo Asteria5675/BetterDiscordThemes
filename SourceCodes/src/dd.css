@@ -496,10 +496,13 @@
 #app-mount .container-PNkimc {
     background: transparent;
 }
-.theme-dark .channels-Ie2l6A, .theme-dark .da-privateChannels {
+.theme-dark .da-panels .da-container {
+    background-color: #272727;
+}
+.theme-dark .da-content > .da-sidebar, .theme-dark .da-privateChannels {
     background: #1e1e1e;
 }
-.theme-light .channels-Ie2l6A {
+.theme-light .da-content > .da-sidebar, .theme-light .da-privateChannels {
     background: #f2f2ff;
 }
 .theme-dark .channel-2QD9_O.selected-1HYmZZ a, .theme-dark .channel-2QD9_O:hover a,
