@@ -1097,7 +1097,7 @@
 .theme-light .da-friendsOnline {
     color: #010101;
 }
-.theme-dark .da-layer > .da-flex > .da-wrapper {
+.theme-dark .da-layer > .da-flex > .da-wrapper, .theme-dark .wrapper-1Rf91z {
     background-color: #232323;
 }
 .theme-light .da-layer > .da-flex > .da-wrapper {
