@@ -1870,14 +1870,14 @@
 }
 
 /* Status Test */
-div#popout_1 .da-statusItem{
+.da-layer[id] .da-statusItem{
     display: inline-flex;
     width: 60px;
     overflow: hidden;
     height: 52px;
     flex-direction: unset;
 }
-div#popout_1, div#popout_2 {
+.da-layer[id] {
     position: absolute;
     left: 70px !important;
     width: 240px !important;
@@ -1888,58 +1888,58 @@ div#popout_1, div#popout_2 {
     bottom: 0 !important;
     transition: 250ms ease-in;
 }
-div#popout_1 .da-helper,
-div#popout_1 .da-separator {display: none;}
-div#popout_1 .da-menu, div#popout_2 .da-menu {
+.da-layer[id] .da-helper,
+.da-layer[id] .da-separator {display: none;}
+.da-layer[id] .da-menu{
     width: 240px;
     border-radius: 0;
     bottom: 0;
     padding: 0;
 }
-#popout_1 .da-statusIconText div+div {display: none;}
+.da-layer[id] .da-statusIconText div+div {display: none;}
 .theme-dark .alt-3btY0e .helper-2c73HK {
     color: transparent;
 }
-div#popout_1 .da-statusItem {
+.da-layer[id] .da-statusItem {
     transition: 350ms ease-in, box-shadow 500ms ease;
     background-image: linear-gradient(140deg, transparent,rgba(0,0,0,0.15), rgba(0,0,0,.25))
 }
-div#popout_1 .da-status {
+.da-layer[id] .da-status {
     background-color: transparent;
 }
-div#popout_1 .da-statusItem:first-child {
+.da-layer[id] .da-statusItem:first-child {
     background-color: #43b581;
     transition-delay: 150ms;
 }
-div#popout_1 .da-statusItem:nth-child(3) {
+.da-layer[id] .da-statusItem:nth-child(3) {
     background-color: #faa61a;
     transition-delay: 200ms;
 }
-div#popout_1 .da-statusItem:nth-child(4){
+.da-layer[id] .da-statusItem:nth-child(4){
     background-color: #f04747;
     transition-delay: 250ms;
 }
-div#popout_1 .da-statusItem:nth-child(5){
+.da-layer[id] .da-statusItem:nth-child(5){
     background-color: #747f8d;
     transition-delay: 300ms;
 }
-div#popout_1 .da-statusItem:hover {
+.da-layer[id] .da-statusItem:hover {
     opacity: 0.9;
     transition: 175ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-div#popout_1 .da-statusItem:active {
+.da-layer[id] .da-statusItem:active {
     transform: scale(0.95);
     transition: 120ms ease-in;
 }
-div#popout_1 .da-statusIconText *{
+.da-layer[id] .da-statusIconText *{
     display: none;
 }
-div#popout_1 .da-statusItem {
+.da-layer[id] .da-statusItem {
     left: 0;
     top:0;
     margin: 0;
 }
-div#popout_1 .da-menuItem {
+.da-layer[id] .da-menuItem {
     position: absolute;
     left: 100% !important;
     margin: 0;
@@ -1954,20 +1954,20 @@ div#popout_1 .da-menuItem {
     max-height: 52px;
     font-size: 0.65rem;
 }
-div#popout_1 .da-customStatus {
+.da-layer[id] .da-customStatus {
     width: auto;
     font-size: 0.67em;
     color: #d7d1d1;
 }
-div#popout_1 .da-customStatusIcon {
+.da-layer[id] .da-customStatusIcon {
     display: none;
 }
-div#popout_1 .da-menuItem:hover .da-clearStatus {
+.da-layer[id] .da-menuItem:hover .da-clearStatus {
     top: 62%;
     opacity: 1;
     transition: 350ms ease-in;
 }
-div#popout_1 .da-clearStatus {
+.da-layer[id] .da-clearStatus {
     position: absolute;
     left: 40%;
     top: 1000%;
@@ -1980,7 +1980,7 @@ div#popout_1 .da-clearStatus {
     75%{width: 50px; opacity: 1}
     100%{width: 60px; opacity: 1}
 }
-div#popout_1 .da-menuItem {
+.da-layer[id] .da-menuItem {
     animation: slide-in ease-in 450ms 1;
 }
 
