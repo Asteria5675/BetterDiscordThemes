@@ -1877,7 +1877,7 @@
     height: 52px;
     flex-direction: unset;
 }
-.da-layer[id] {
+.da-layer[id]:not([layer-id]) {
     position: absolute;
     left: 70px !important;
     width: 240px !important;
