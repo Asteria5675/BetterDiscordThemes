@@ -1868,7 +1868,10 @@
     background: url(https://asteria5675.github.io/src/themes/svgs/edited.svg) center no-repeat;
     background-size: 18px 22px;
 }
-
+/* */
+.layer-v9HyYc[style*="top:"]:not([style*="left:"]) {
+    top: 0 !important;
+}
 /* Status Test */
 .da-layer[id] .da-statusItem{
     display: inline-flex;
