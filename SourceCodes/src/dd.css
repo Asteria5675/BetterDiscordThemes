@@ -496,7 +496,7 @@
 #app-mount .container-PNkimc {
     background: transparent;
 }
-.theme-dark .da-panels .da-container {
+.theme-dark .da-panels .da-container, .theme-dark .da-activityPanel{
     background-color: #272727;
 }
 .theme-dark .da-content > .da-sidebar, .theme-dark .da-privateChannels {
