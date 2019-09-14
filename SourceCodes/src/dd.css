@@ -1869,10 +1869,10 @@
     background-size: 18px 22px;
 }
 /* */
-.layer-v9HyYc[style*="top:"]:not([style*="left:"]) {
+.layer-v9HyYc[style*="top:"]:not([style*="left:"]):not([id="popout_4669"]) {
     top: 0 !important;
 }
-.layer-v9HyYc[style*="top:"][style*="left:"] {
+.layer-v9HyYc[style*="top:"][style*="left:"]:not([id="popout_4669"]) {
     top: 50px !important;
 }
 /* Status Test */
@@ -1883,7 +1883,7 @@
     height: 52px;
     flex-direction: unset;
 }
-.da-layer[id]:not([layer-id]):not([style*="top:"]) {
+.da-layer[id]:not([layer-id]):not([style*="top:"]):not([id="popout_4669"]) {
     position: absolute;
     left: 70px !important;
     width: 240px !important;
