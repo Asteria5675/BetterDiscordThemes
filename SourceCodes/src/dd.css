@@ -1872,6 +1872,9 @@
 .layer-v9HyYc[style*="top:"]:not([style*="left:"]) {
     top: 0 !important;
 }
+.layer-v9HyYc[style*="top:"][style*="left:"] {
+    top: 50px !important;
+}
 /* Status Test */
 .da-layer[id] .da-statusItem{
     display: inline-flex;
