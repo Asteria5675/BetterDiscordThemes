@@ -1869,7 +1869,7 @@
     background-size: 18px 22px;
 }
 /* */
-.layer-v9HyYc[id*="popout"][style*="top:"]:not([style*="left:"]):not([id="popout_4669"]) {
+.layer-v9HyYc[id*="popout"][style*="top:"]:not([style*="left:"]):not([id="popout_4669"]):not([id="popout_4768"]) {
     top: 0 !important;
 }
 .layer-v9HyYc[id*="popout"][style*="top:"][style*="left:"]:not([id="popout_4669"]) {
