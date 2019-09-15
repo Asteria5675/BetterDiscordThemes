@@ -502,6 +502,9 @@
 .theme-dark .da-content > .da-sidebar, .theme-dark .da-privateChannels {
     background: #1e1e1e;
 }
+.theme-dark .da-selected .da-layout {
+    background: none;
+}
 .theme-light .da-content > .da-sidebar, .theme-light .da-privateChannels {
     background: #f2f2ff;
 }
