@@ -1965,17 +1965,20 @@
     opacity: 0;
 }
 @keyframes slide-in {
-    0% {width: 2px;opacity:0;}
-    25%{width: 10px; opacity: 0.2}
-    50%{width: 35px; opacity: 0.8}
-    75%{width: 50px; opacity: 1}
-    100%{width: 60px; opacity: 1}
+    0% {width: 2px;opacity:0;min-width: unset;}
+    25%{width: 10px;opacity: 0.2;min-width: unset;}
+    50%{width: 35px;opacity: 0.8;min-width: unset;}
+    75%{width: 50px;opacity: 1;min-width: unset;}
+    100%{width: 60px;opacity: 1;min-width: unset;}
 }
 .da-layer[style*="left: 82px;"]:not([layer-id]):not([style*="top:"]) .da-menuItem {
     animation: slide-in ease-in 450ms 1;
 }
 
 /* Misc */
+#app-mount .da-headerStreaming {
+    background: #593695;
+}
     /* */
     html[style] head ~ body[style] > #app-mount.appMount-3lHmkl .wordmark-2iDDfm::after {
         content: "Dusk to Dawn";
