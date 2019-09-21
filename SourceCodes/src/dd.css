@@ -2191,6 +2191,6 @@ rect[transform] {
 .da-modal .da-footer {
     padding: 16px 20px
 }
-.da-scroller {
+.da-scroller, .scroller {
     background-color: transparent !important;
 }
