@@ -2188,3 +2188,39 @@ rect[transform] {
 .da-scroller, .scroller {
     background-color: transparent !important;
 }
+/* Server Menu */
+.da-layer[style*="left: 82px;"][style*="top:"] {
+    width: 240px;
+    left: 72px !important;
+    top: 78.5px !important;
+}
+.da-layer[style*="left: 82px;"][style*="top:"] .da-menu {
+     padding: 0;
+     margin: 0;
+     width: 100%;
+     border-radius: 0;
+     background-color: #252525;
+}
+.da-layer[style*="left: 82px;"][style*="top:"] .da-menu .da-item {
+    padding: 5px 8px;
+    margin: 0 auto;
+    border-radius: 0;
+}
+.da-layer[style*="left: 82px;"][style*="top:"] .da-item .da-label {
+    order: 1;
+    padding-left: 3px;
+    font-weight: 200;
+}
+.da-layer[style*="left: 82px;"][style*="top:"] .da-item:not(.da-invite):not(.da-leave) .da-label {
+    color: #fff;
+}
+.da-layer[style*="left: 82px;"][style*="top:"] .da-iconContainer {
+    padding: 0;
+    margin: 0
+}
+.da-layer[style*="left: 82px;"][style*="top:"] .da-separator {
+    display: none;
+}
+.da-layer[style*="left: 82px;"][style*="top:"] .da-menu .da-item.da-leave:hover{
+    background-color: #9818184a;
+}
