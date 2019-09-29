@@ -2224,3 +2224,25 @@ rect[transform] {
 .da-layer[style*="left: 82px;"][style*="top:"] .da-menu .da-item.da-leave:hover{
     background-color: #9818184a;
 }
+.theme-dark .da-contextMenu {
+    background-color: #232323;
+}
+.da-contextMenu {
+    padding: 0;
+}
+.da-subMenuContext {
+    margin-left: -10px;
+}
+#app-mount .theme-dark .da-checkbox input:checked+span {
+    background-color: #7777775c;
+    border-color: #888;
+}
+.da-checkbox input:checked+span:after {
+    border-radius: 40% 50%;
+}
+#app-mount .theme-dark .da-checkbox input:checked+span::after {
+    border-color: #888;
+}
+svg polyline[stroke="#7289da"] {
+    stroke: #fff;
+}
