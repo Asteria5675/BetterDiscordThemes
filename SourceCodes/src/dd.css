@@ -1108,32 +1108,85 @@
     background-color: #aaa7a7;
 }
 /* Emojis/Emote tab */
-#bda-qem-twitch-container, #bda-qem-favourite-container,
-#bda-qem button.active,
-.da-emojiPicker .category-2U57w6,
-#app-mount .container-3cGP6G,
-#bda-qem button:hover,-light,
-.da-emojiPicker, -light,
-#bda-qem, .da-emojiPicker .header-1nkwgG,
-.searchBar-2_Yu-C.searchBarLight-1NxoDG {
-    background: hsla(255, 16%, 10%, 1)
-}
-.da-emojiPicker .categories-1feg4n .item-16cXuq.selected-39BZ4S,
-#bda-qem button {
-    border-color: #2f3136;
-    color: #eeeeee
-}
-.popoutTopRight-3BzFIE.noArrow-3BYQ0Z ::-webkit-scrollbar,
-.popoutTopRight-3BzFIE.noArrow-3BYQ0Z ::-webkit-scrollbar-track,
-.popoutTopRight-3BzFIE.noArrow-3BYQ0Z ::-webkit-scrollbar-track-piece {
-    background: transparent!important; 
-    border-color: transparent !important;
-}
-.popoutTopRight-3BzFIE.noArrow-3BYQ0Z ::-webkit-scrollbar-thumb {
-    background-color: #0c0c0c !important;
+.theme-dark .da-emojiPicker, #bda-qem button, #bda-qem-twitch-container, #bda-qem-favourite-container {
+    background: #252525;
+    border-color: #5a5a5a;
 }
 #bda-qem button {
-    box-shadow: 0 0 0 transparent;
+    box-shadow: none;
+}
+#bda-qem button:not(.active) {
+    color: #c3c3c391;
+}
+#bda-qem button:not(.active):hover {
+    background: #5d5d5d75;
+}
+#bda-qem button.active {
+    background: #5d5d5d7d;
+    color: #dedede;
+}
+#bda-qem button,
+.da-emojiPicker {
+    border-radius: 0;
+}
+.da-emojiPicker .da-header .da-searchBar {
+    background: transparent;
+}
+.da-emojiPicker .da-header .da-inner {
+    height: 30px;
+    align-items: center;
+    position: relative;
+}
+.da-emojiPicker .da-header .da-inner input {
+    font-size: 1.2rem;
+    color: white;
+}
+.da-emojiPicker .da-header .da-inner::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background: #848484;
+}
+.da-emojiPicker .da-header,
+
+.da-emojiPicker .da-stickyHeader {
+    background: #252525;
+}
+.da-emojiPicker .da-category {
+    background: transparent ;
+}
+.da-emojiPicker .da-category {
+    color: #909090;
+    position: relative;
+}
+.da-emojiPicker .da-category::after {
+    content: '';
+    width: 40%;
+    height: 1px;
+    left: 0; bottom: 15%;
+    position: absolute;
+    background: linear-gradient(90deg, #56545421, #7b79799e, #56545421);
+}
+.da-emojiPicker .da-scroller .da-emojiItem.da-selected {
+    background-color: #4a4848d9;
+}
+.theme-dark .da-emojiPicker .da-item.da-selected {
+    border-color: #b3afaf;
+}
+.theme-dark .da-emojiPicker .da-item:not(.da-selected):hover {
+        border-color: #b3afaf8f;
+}
+.theme-dark .da-emojiPicker .da-scroller::-webkit-scrollbar-thumb {
+    background-color: #666;
+    border-color: transparent;
+}
+.theme-dark .da-emojiPicker .da-scroller::-webkit-scrollbar-track,
+.theme-dark .da-emojiPicker .da-scroller::-webkit-scrollbar-track-piece {
+    border-color: transparent;
+    background-color: transparent;
 }
 /* Popouts */ 
 #app-mount .da-popout .container-3cGP6G {
