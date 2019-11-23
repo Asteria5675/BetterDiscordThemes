@@ -5,13 +5,13 @@ Core Elements
 */
 #app-mount {
 	background-repeat: no-repeat;
-	background-size: center;
+	background-size: cover;
 }
-.layers-3iHuyZ {
-    background-color: rgba(0,0,0,var(--bg-opacity))!important;
+.theme-dark .layers-3iHuyZ {
+    background-color: rgba(0,0,0,var(--bg-opacity));
 }
-.container-2lgZY8 {
-	background: transparent !important;
+.theme-dark .container-2lgZY8, .theme-dark .da-bg, .theme-dark .da-app {
+	background: transparent;
 }
 .content-1-zrf2::after {
     content: "Theme by: Asteria#5675";
@@ -48,7 +48,8 @@ Core Elements
 	/* Scrollbars */
 ::-webkit-scrollbar-track,
 ::-webkit-scrollbar-track-piece {
-    display: none !important;
+    border-color: transparent !important;
+    background: transparent !important;
 }
 .chat-3bRxxu ::-webkit-scrollbar {
 	border: 0 !important;
@@ -57,10 +58,6 @@ Core Elements
 .chat-3bRxxu ::-webkit-scrollbar-thumb {
 	border: 2px solid var(--sec-color) !important;
 }
-.chat-3bRxxu .scroller-wrap .scroller {
-    flex: 0.997;
-}
-
 .container-3gCOGc ::-webkit-scrollbar-thumb,
 .activityFeed-28jde9 ::-webkit-scrollbar-thumb {
 	border: 2px solid var(--sec-color) !important;
@@ -216,20 +213,10 @@ background-color: #f04747 }
     background: rgba(0,0,0,0.45);
 }
     /* Message Area */
-.chat-3bRxxu form {
-	margin-left: 0 !important;
-    background: rgba(0,0,0,0.65);
-}
-.channelTextArea-rNsIhG {
-    margin-left: 20px !important;
-    background: transparent;
-    width: calc(100% - 0.8vw);
-}
 #app-mount .inner-zqa7da {
     background: #161616;
     border: 1px solid var(--sec-color);
 }
-
  .inner-zqa7da {
 	 background: var(--main-color);
  }
@@ -244,8 +231,11 @@ background-color: #f04747 }
 Friends Tab
 -----------
  */
-.theme-dark .headerBar-UHpsPw, .headerBar-UHpsPw {
+.theme-dark .headerBar-UHpsPw {
     background: linear-gradient(black, rgba(0,0,0,0.1));
+}
+.theme-dark .da-themed.da-container {
+	background-color: rgba(35, 34, 34, 0.1);
 }
 .theme-dark .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud:hover {
     background-color: rgba(0,0,0,0.35);
@@ -789,4 +779,24 @@ border: 2px solid var(--sec-color) ;
 }
 .message-1PNnaP {
      margin-left: -15px ;
+}
+.theme-dark {
+	--background-primary: transparent;
+    --background-secondary: transparent;
+    --background-tertiary: transparent;
+}
+.theme-dark .messages-3amgkR {
+    background: transparent;
+}
+.theme-dark .messagesPopout-24nkyi {
+	background: rgb(41, 41, 41);
+}
+.theme-dark .da-panel {
+	background: transparent;
+}
+.theme-dark .da-panels {
+	background: rgba(37, 36, 36, 0.5);
+}
+.scrollerWrap-1IAIlv {
+	width: unset;
 }
