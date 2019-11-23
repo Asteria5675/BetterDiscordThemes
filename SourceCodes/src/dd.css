@@ -2182,10 +2182,10 @@ rect[transform] {
     color: #191818;
 }
 .theme-dark a .da-channel:hover,
-#app-mount .theme-dark .da-selected.da-channel {
+#app-mount .da-selected.da-channel {
     background-color: var(--dm-channel-color);
 }
-#app-mount .theme-light .da-selected.da-channel {
+#app-mount .da-selected.da-channel {
     background-color: var(--lm-channel-color);
 }
 .da-channels .da-content:hover,
