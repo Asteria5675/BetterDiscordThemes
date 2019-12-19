@@ -787,10 +787,6 @@
 }
 .theme-dark .user-settings-games .game-name-input:focus, 
 .theme-dark .user-settings-games .game-name-input:hover {
-    transition: ba
-}
-.theme-dark .user-settings-games .game-name-input:focus, 
-.theme-dark .user-settings-games .game-name-input:hover {
     background-color: #202020;
     border-color: hsla(240, 13%, 88%, 0.8);
 }
@@ -917,9 +913,6 @@
     margin-right: 5px;
     align-content: space-between;
 }
-.modal-2VIBV8 .item-26Dhrx {
-    width: 170px;
-}
 .title-3BE6m5 {
     font-size: 0.9em;
     opacity: 0.6;
@@ -962,12 +955,12 @@
     background-color: hsla(0, 0%, 85%, 0.25);
 }
     /* Settings Cards as buttons*/
-.cardPrimaryEditable-3KtE4g {
+#user-settings .cardPrimaryEditable-3KtE4g {
         background: transparent !important;
         border-color: transparent !important;
         position: relative;
 }
-.cardPrimaryEditable-3KtE4g .info-3LOr12::before {
+#user-settings .cardPrimaryEditable-3KtE4g .info-3LOr12::before {
     position: absolute;
     content: '';
     background: url(https://asteria5675.github.io/src/themes/svgs/check.svg) no-repeat center/cover;
@@ -976,10 +969,10 @@
     left: 5px;
     top: 4px;
 }
-.cardPrimaryEditable-3KtE4g[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] .info-3LOr12::after {
+#user-settings .cardPrimaryEditable-3KtE4g[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] .info-3LOr12::after {
     content: '';
 }
-.cardPrimaryEditable-3KtE4g .info-3LOr12::after {
+#user-settings .cardPrimaryEditable-3KtE4g .info-3LOr12::after {
     position: absolute;
     background: url(https://asteria5675.github.io/src/themes/svgs/filled_circle.svg) no-repeat center/cover;
     width: 35px;
@@ -989,7 +982,7 @@
     background-position-x: -0.5px;
     background-position-y: -0.5px;
 }
-.cardPrimaryEditable-3KtE4g:not([style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"]):active .info-3LOr12::after {
+#user-settings .cardPrimaryEditable-3KtE4g:not([style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"]):active .info-3LOr12::after {
     content: '';
     animation: 150ms grow ease;
 }
@@ -998,26 +991,26 @@
     50% {width:25px;height:25px;left:9.5px;top:9px;}
     100% {width: 35px;height: 35px;left: 5.5px;top: 4.5px;}
 }
-.info-3LOr12 { 
+#user-settings .info-3LOr12 { 
     margin-left: 30px;
 }
-.cardPrimaryEditable-3KtE4g > .checkboxWrapper-SkhIWG {
+#user-settings .cardPrimaryEditable-3KtE4g > .checkboxWrapper-SkhIWG {
     display: none;
 }
-.theme-light .descChecked-XkfPsU, .theme-light .titleChecked-2wg0pd {
+.theme-light #user-settings .descChecked-XkfPsU, .theme-light #user-settings .titleChecked-2wg0pd {
     color: #010101 !important;
 }
-.theme-dark .checked-3_4uQ9[style*="border-color: rgb(114, 137, 218)"] {
+.theme-dark #user-settings .checked-3_4uQ9[style*="border-color: rgb(114, 137, 218)"] {
     border-color: hsla(0, 13%, 89%, 0.72) !important;
     background-color: transparent !important;
 }
-.theme-light .checked-3_4uQ9 {
+.theme-light #user-settings .checked-3_4uQ9 {
     border-color: hsla(0, 0%, 5%, 0.95) !important;
 }
-.item-26Dhrx .checked-3_4uQ9 polyline[stroke="#7289da"] {
+#user-settings .item-26Dhrx .checked-3_4uQ9 polyline[stroke="#7289da"] {
     stroke: none !important;
 }
-.item-26Dhrx:active .checkbox-1ix_J3:not(.checked-3_4uQ9) {
+#user-settings .item-26Dhrx:active .checkbox-1ix_J3:not(.checked-3_4uQ9) {
     animation: button-grow 250ms ease-in;
 }
 @keyframes button-grow {
@@ -1025,7 +1018,7 @@
     50%{transform: scale(0.5)}
     100%{transform: scale(1)}
 }
-.item-26Dhrx:active .checkbox-1ix_J3:not(.checked-3_4uQ9)::before {
+#user-settings .item-26Dhrx:active .checkbox-1ix_J3:not(.checked-3_4uQ9)::before {
     animation: button-appear 250ms ease-in;
 }
 @keyframes button-appear {
@@ -1033,24 +1026,24 @@
     50%{transform: scale(2);opacity:0.45}
     100%{transform: scale(1);opacity:1}
 }
-.theme-dark .item-26Dhrx:active .checkbox-1ix_J3:not(.checked-3_4uQ9)::before {
+.theme-dark #user-settings .item-26Dhrx:active .checkbox-1ix_J3:not(.checked-3_4uQ9)::before {
     background-color: hsla(0, 6%, 86%, 0.75);
 }
-.theme-light .item-26Dhrx:active .checkbox-1ix_J3:not(.checked-3_4uQ9)::before {
+.theme-light #user-settings .item-26Dhrx:active .checkbox-1ix_J3:not(.checked-3_4uQ9)::before {
     background-color: hsla(0, 0%, 5%, 0.85);
 }
-.theme-dark .checkbox-1ix_J3 {
+.theme-dark #user-settings .checkbox-1ix_J3 {
     border-color: hsla(0, 0%, 93%, 0.3);
 }
-.item-26Dhrx .checkbox-1ix_J3 {
+#user-settings .item-26Dhrx .checkbox-1ix_J3 {
     border-width: 0.125em;
     border-radius: 50%;
 }
-.item-26Dhrx .checkbox-1ix_J3 {
+#user-settings .item-26Dhrx .checkbox-1ix_J3 {
     position: relative;
     display: flex;
 }
-.item-26Dhrx .checkbox-1ix_J3::before {
+#user-settings .item-26Dhrx .checkbox-1ix_J3::before {
     content: "";
     position: absolute;
     width: 12px;
@@ -1059,21 +1052,17 @@
     left: 20%;
     top: 22%;
 }
-.item-26Dhrx:nth-child(2) .checked-3_4uQ9::before{
+#user-settings .item-26Dhrx:nth-child(2) .checked-3_4uQ9::before{
     left: 21.15%;
     top: 21.15%;
 }
-.theme-dark .checked-3_4uQ9.checkbox-1ix_J3::before {
+.theme-dark #user-settings .checked-3_4uQ9.checkbox-1ix_J3::before {
     background-color: hsla(0, 13%, 89%, 0.72);
 }
-.theme-light .checked-3_4uQ9.checkbox-1ix_J3::before {
+.theme-light #user-settings .checked-3_4uQ9.checkbox-1ix_J3::before {
     background-color: hsla(0, 0%, 5%, 0.95);
 }
-.modal-3HD5ck .item-26Dhrx .checked-3_4uQ9::before{
-    left: 21%;
-    top: 21%;
-}
-.cardPrimaryEditable-3KtE4g .checkbox-1ix_J3::before {
+#user-settings .cardPrimaryEditable-3KtE4g .checkbox-1ix_J3::before {
     display: none;
 }
 /* Guilds */
@@ -1917,7 +1906,7 @@
 }
 /* */
 /* Status Test */
-.da-layer[style*="left: 80px;"]:not([layer-id]):not([style*="top:"]) .da-statusItem{
+.da-layer:not([style*="bottom: 1"]) .da-layer[style*="left: 80px;"]:not([layer-id]):not([style*="top:"]) .da-statusItem{
     display: inline-flex;
     width: 60px;
     overflow: hidden;
@@ -2312,4 +2301,7 @@ svg polyline[stroke="#7289da"] {
 }
 .theme-dark .popout-2sKjHu {
     background-color: #1e1e1e !important;
+}
+.theme-dark .da-scrollabbleContainer {
+    background-color: transparent;
 }
