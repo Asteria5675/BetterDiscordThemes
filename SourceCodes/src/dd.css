@@ -317,8 +317,8 @@
 .theme-light .typing-2GQL18 {
     color: #161616;
 }
-#app-mount .chat-3bRxxu .inner-zqa7da {
-     background: #232222;
+.theme-dark .scrollableContainer-2NUZem {
+    background-color: #242424; /* use to be #232323 */
 }
 .channelTextArea-rNsIhG {
     padding-top: 5px;
@@ -1849,10 +1849,10 @@
 .theme-dark .messagesPopoutWrap-1MQ1bW {
     background: #1e1e1e;
 }
-.theme-dark+.container-16j22k {
-    background: #181818;
+.theme-dark .da-app+.da-container{
+    background-color: #1a1a1a;
 }
-.theme-light+.container-16j22k {
+.theme-light .da-app+.da-container {
     background: #999;
 }
 /* Store */
@@ -1906,7 +1906,7 @@
 }
 /* */
 /* Status Test */
-.da-layer:not([style*="bottom: 1"]) .da-layer[style*="left: 80px;"]:not([layer-id]):not([style*="top:"]) .da-statusItem{
+.da-layer[style*="left: 80px;"]:not([layer-id]):not([style*="top:"]) .da-statusItem{
     display: inline-flex;
     width: 60px;
     overflow: hidden;
@@ -2302,6 +2302,11 @@ svg polyline[stroke="#7289da"] {
 .theme-dark .popout-2sKjHu {
     background-color: #1e1e1e !important;
 }
-.theme-dark .da-scrollabbleContainer {
-    background-color: transparent;
+.da-button.da-enabled:hover {
+    background-color: hsla(0, 0%, 25%, 0.5);
+}
+
+.inner-tyMogq > div {
+    margin-left: -1px;
+    padding-left: 1px;
 }
