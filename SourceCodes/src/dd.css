@@ -2174,7 +2174,7 @@ rect[transform] {
 #app-mount .da-selected.da-channel {
     background-color: var(--dm-channel-color);
 }
-#app-mount .da-selected.da-channel {
+.theme-light .da-selected.da-channel {
     background-color: var(--lm-channel-color);
 }
 .da-channels .da-content:hover,
