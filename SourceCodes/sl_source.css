@@ -213,7 +213,7 @@ background-color: #f04747 }
     background: rgba(0,0,0,0.45);
 }
     /* Message Area */
-#app-mount .inner-zqa7da {
+#app-mount .scrollableContainer-2NUZem {
     background: #161616;
     border: 1px solid var(--sec-color);
 }
@@ -240,6 +240,8 @@ Friends Tab
 .theme-dark .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud:hover {
     background-color: rgba(0,0,0,0.35);
 }
+.nowPlayingColumn-2sl4cE,
+.peopleColumn-29fq28,
 .theme-dark .friendsTable-133bsv {
     background: transparent;
 }
