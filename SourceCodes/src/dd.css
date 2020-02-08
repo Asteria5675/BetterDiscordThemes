@@ -2166,6 +2166,9 @@ rect[transform] {
 .da-chat div:not(.da-container)::after {
     background-image: none !important;
 }
+.da-scroller::after {
+    height: 0;
+}
 .theme-dark .container-1r6BKw {
     background: #181818;
 }
