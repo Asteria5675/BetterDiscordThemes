@@ -967,7 +967,7 @@
     width: 35px;
     height: 35px;
     left: 5px;
-    top: 4px;
+    top: -5px;
 }
 #user-settings .cardPrimaryEditable-3KtE4g[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] .info-3LOr12::after {
     content: '';
@@ -978,7 +978,7 @@
     width: 35px;
     height: 35px;
     left: 5.5px;
-    top: 4.5px;
+    top: -4px;
     background-position-x: -0.5px;
     background-position-y: -0.5px;
 }
@@ -992,10 +992,7 @@
     100% {width: 35px;height: 35px;left: 5.5px;top: 4.5px;}
 }
 #user-settings .info-3LOr12 { 
-    margin-left: 30px;
-}
-#user-settings .cardPrimaryEditable-3KtE4g > .checkboxWrapper-SkhIWG {
-    display: none;
+    margin-left: 8px;
 }
 .theme-light #user-settings .descChecked-XkfPsU, .theme-light #user-settings .titleChecked-2wg0pd {
     color: #010101 !important;
