@@ -966,7 +966,7 @@
     background: url(https://asteria5675.github.io/src/themes/svgs/check.svg) no-repeat center/cover;
     width: 35px;
     height: 35px;
-    left: 5px;
+    left: -5px;
     top: -5px;
 }
 #user-settings .cardPrimaryEditable-3KtE4g[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] .info-3LOr12::after {
@@ -977,7 +977,7 @@
     background: url(https://asteria5675.github.io/src/themes/svgs/filled_circle.svg) no-repeat center/cover;
     width: 35px;
     height: 35px;
-    left: 5.5px;
+    left: -4.5px;
     top: -4px;
     background-position-x: -0.5px;
     background-position-y: -0.5px;
@@ -1006,6 +1006,9 @@
 }
 #user-settings .item-26Dhrx .checked-3_4uQ9 polyline[stroke="#7289da"] {
     stroke: none !important;
+}
+.theme-dark .checkbox-1ix_J3 {
+    border: none !important
 }
 #user-settings .item-26Dhrx:active .checkbox-1ix_J3:not(.checked-3_4uQ9) {
     animation: button-grow 250ms ease-in;
@@ -1866,14 +1869,14 @@
     transition: 450ms cubic-bezier(0.9, 0.38, 0.58, 0.85);
     transition-delay: 350ms;
 }
-.theme-dark .edited-DL9ECl {
+.theme-dark .da-edited {
     position: relative;
     width: 0;
     color: transparent;
     font-size: 0px;
     margin-left: 12px;
 }
-.theme-dark .edited-DL9ECl::after {
+.theme-dark .da-edited::after {
     content: '';
     position: absolute;
     width: 18px;
