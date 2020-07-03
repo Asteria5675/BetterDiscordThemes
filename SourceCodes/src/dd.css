@@ -1,3 +1,13 @@
+/* Extra Variables */
+.theme-dark {
+    --background-secondary: transparent;
+    --background-primary: transparent;
+    --background-floating: #1f1f1f;
+    /*////*/
+    --dusk-background-1: #232323;
+    --dusk-background-2: #1e1e1e;
+    --dusk-activate: hsla(0, 0%, 35%, .25);
+}
 /* Core */
 #app-mount, .typeWindows-1za-n7 {
     background-color: #1a1a1a;
@@ -977,7 +987,7 @@
     background: url(https://asteria5675.github.io/src/themes/svgs/filled_circle.svg) no-repeat center/cover;
     width: 35px;
     height: 35px;
-    left: -4.5px;
+    left: -4px;
     top: -4px;
     background-position-x: -0.5px;
     background-position-y: -0.5px;
@@ -2153,13 +2163,14 @@ rect[transform] {
     background: #5f5f5f;
     color: #191818;
 }
-.theme-dark a .da-channel:hover,
+.clickable-1JJAn8:active .layout-2DM8Md{
+    background-color: var(--dusk-activate);
+    opacity: 0.85;
+}
 #app-mount .da-selected.da-channel {
     background-color: var(--dm-channel-color);
 }
-.theme-light .da-selected.da-channel {
-    background-color: var(--lm-channel-color);
-}
+
 .da-channels .da-content:hover,
 #app-mount .da-selected.da-channel {
     background-image: linear-gradient(15deg, transparent, rgba(0,0,0,0.2));
@@ -2206,7 +2217,7 @@ rect[transform] {
 .theme-dark .da-modal:not([style]), .theme-dark .root-1gCeng {
     background-color: #191717
 }
-.theme-dark .footer-3rDWdC,
+.theme-dark .footer-2gL1pp, .theme-dark .footer-3rDWdC,
 .theme-dark .da-modal .da-footer {
     background-color: #212121;
 }
@@ -2302,7 +2313,7 @@ svg polyline[stroke="#7289da"] {
     background-color: transparent;
     margin: 24px 0;
 }
-.form-2fGMdU:before {
+.theme-dark .form-2fGMdU:before {
     background-image: none;
 }
 .da-divider span.da-content{
@@ -2375,4 +2386,11 @@ svg polyline[stroke="#7289da"] {
 }
 .scrollerSpacer-1Rp0XE {
     display: none
+}
+/* Inbox Email*/ 
+.theme-dark .da-recentMentionsPopout {
+    background-color: var(--dusk-background-2)
+}
+.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O), .da-colorDefault.da-focused {
+    background-color: var(--dusk-activate);
 }
