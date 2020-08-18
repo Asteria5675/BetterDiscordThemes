@@ -1563,6 +1563,11 @@ section .da-scroller::-webkit-scrollbar-thumb {border: none !important;}
     border-radius: 2px;
     opacity: 0.2;
 }
+.role-2irmRk:hover .roleRemoveIcon-2-TeGW, .keyboard-mode .role-2irmRk:focus-within .roleRemoveIcon-2-TeGW {
+    z-index: 1000;
+    width: 100%; height: 100%;
+}
+.roleRemoveIcon-2-TeGW path {fill: #b34747;}
 /* Context Menu */
 .theme-dark .contextMenu-HLZMGh {
     background-color: #201f1f;
