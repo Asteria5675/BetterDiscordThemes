@@ -16,8 +16,11 @@
     background-color: #1a1a1a;
 }
 .da-layer > .da-flex > .da-wrapper,
-.base-3dtUhz {
+.base-3dtUhz, .da-base .da-sidebar.da-sidebar {
     border-radius: 0;
+}
+.scrollableContainer-2NUZem {
+    border-radius: 3px;
 }
 /* ScrollBars */ 
 .base-3dtUhz div::-webkit-scrollbar-thumb, #user-settings div::-webkit-scrollbar-thumb {background-color: var(--scrollbar-thumb) !important;}
