@@ -802,3 +802,9 @@ border: 2px solid var(--sec-color) ;
 .scrollerWrap-1IAIlv {
 	width: unset;
 }
+/* 9/2020 quick fixes*/
+.header-2o-2hj, .theme-dark .inset-3sAvek {
+    border-bottom: 1px solid var(--sec-color);
+    background-color: rgba(0,0,0,0.45)
+}
+.theme-dark .container-1D34oG {background-color: transparent}
