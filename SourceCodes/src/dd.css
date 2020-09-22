@@ -1916,6 +1916,7 @@ section .da-scroller::-webkit-scrollbar-thumb {border: none !important;}
 #status-picker .da-item:nth-child(7) {
     width: 240px;
     height: 60px;
+    top: -2px;
 }
 /* Misc */
 #app-mount .da-headerStreaming {
