@@ -260,6 +260,9 @@ section .da-scroller::-webkit-scrollbar-thumb {border: none !important;}
 .theme-dark .autocomplete-1vrmpx {
     background: #1d1a1e
 }
+.theme-dark .selected-1Tbx07 {
+    background-color: var(--dusk-activate);
+}
     /* */
     #app-mount .categoryFadeBlurple-1j72_A {
         background-color: hsla(0, 2%, 11%, 0.76);
