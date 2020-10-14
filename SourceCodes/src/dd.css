@@ -1170,6 +1170,9 @@ section .da-scroller::-webkit-scrollbar-thumb {border: none !important;}
 .lookFilled-1Gx00P.colorGreen-29iAKY .buttonText-2DBjLO{
     color: #43b581;
 }
+.lookFilled-1Gx00P.colorGreen-29iAKY:disabled {
+    color: #eee;
+}
 #app-mount .secondaryAccent-24W-RJ.hover-3nZwuJ {
     fill: hsla(0, 0%, 3%, 0.5);
 }
