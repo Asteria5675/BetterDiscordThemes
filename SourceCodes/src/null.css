@@ -248,7 +248,7 @@
     .mediaBarProgress-1xaPtl, 
     .mediaBarProgress-1xaPtl:after, 
     .mediaBarProgress-1xaPtl:before {
-        background-color: var(--accent-color) !important
+        background-color: var(--blurple) !important
     }
     
     /* 
@@ -376,23 +376,15 @@
     .css-3vaxre-menu {
         background-color: hsla(calc(var(--hue) + var(--hue-addition)), calc(var(--saturation) + var(--saturation-addition)), calc(var(--lightness) + var(--lightness-addition)), var(--alpha));
     }
-    .card-FDVird:before {
+    #app-mount .card-FDVird:before {
         background-color: rgba(0, 0, 0, 0.05);
-        border-color: var(--accent-color)
-    }
-    .game-1ipmAa {
-        -webkit-box-shadow: 0 1px 0 0 var(--accent-color);
-        box-shadow: 0 1px 0 0 var(--accent-color);
-    }
-    .gamePreview-9weYR2 {
-        background: hsla(calc(216 * var(--hue)), calc(7% * var(--saturation)), calc(4% * var(--lightness)), calc(1 * var(--alpha)))
     }
     /* Overlay */
     .selected-mKYnfr.option-n0icdO {
-        background-color: var(--accent-color);
+        background-color: var(--blurple);
     }
     .wrapper-3jrx9n {
-        border-color: hsla(calc(217 * var(--hue)), calc(18% * var(--saturation)), calc(31% * var(--lightness)), calc(1 * var(--alpha)))
+        border-color: var(--blurple);
     }
     /* Item Selected Containers / Checkboxes*/
     #app-mount .item-26Dhrx[style*="background-color"] {
@@ -403,17 +395,12 @@
         border-color: var(--blurple) !important;
     }
     #app-mount .item-26Dhrx svg path:not([fill="transparent"]) {
-        fill: var(--accent-color);
+        fill: var(--blurple);
     }
     .themeDefault-24hCdX.valueChecked-m-4IJZ {
         background-color: var(--blurple);
     }
     /**/
-    #app-mount .colorPickerCustom-2CWBn2 {
-        background: hsla(calc(217 * var(--hue)), calc(8% * var(--saturation)), calc(19% * var(--lightness)), calc(1 * var(--alpha)));
-        border-color: hsla(calc(216 * var(--hue)), calc(7% * var(--saturation)), calc(13% * var(--lightness)), calc(1 * var(--alpha)))
-    }
-    
     .topSectionNormal-2-vo2m {
         background-color: hsla(calc(var(--hue) + var(--hue-addition)), calc(var(--saturation) + var(--saturation-addition)), calc(var(--lightness) + var(--lightness-addition)), var(--alpha));
     }
@@ -456,7 +443,7 @@
         background-color: var(--settings-selected);
     }
     .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover {
-        background-color: var(--accent-color);
+        background-color: var(--settings-selected);
         opacity: 0.85;
     }
     /* >Game */
