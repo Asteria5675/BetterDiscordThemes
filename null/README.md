@@ -1,20 +1,22 @@
 This is called a `readme.md` for a reason.
 
 # Intro
-Null a discord theme originally created by Modder. The original version used `calc` and css variables based around HSL.
+Null a discord theme originally created by <a href="https://github.com/Modder4869/BdBrokenStuff/tree/master/Themes/v1">Modder </a>. The original version used `calc` and css variables based around HSL.
 Hue based of a color wheel, Saturation for a shade gray (0%) to the full color(100%) from hue, and Lightness is the amount of light the color has 0% for black, 100% for white.
 This theme is a rewite of the original to provide the user with a lot of more variables to change the difference in colours or to keep a monotone of a particular color.
 A [guide](https://github.com/Asteria5675/BetterDiscordThemes/blob/master/null/README.md/#Visual-Guides) on editing the variables of null.
 
 ## Versions
 Currently 2 main versions will be supported:
-  1. `Null` which will include imports of addons, users may remove the addon imports if desired, which will most likely receive more updates and changes in the furture.
-  This version will preset as dark gray and accent colors
-  2. `Null Clear` a presetup transparent version of null, original file will not include addon imports. However, the theme will preset like `Null` with coloured channels, tooltips, etc.
-  3. `Dark Null` will be setup to mimic the original Discord feel so no accent colours on tooltips, channels, blurple elements, mentions/channels, etc.
+  1. `Null` which will include imports of addons, users may remove the addon imports if desired, which will most likely receive more updates and changes in the furture. 
+  This version will preset as dark gray and accent colors. <a href="https://betterdiscord.net/ghdl?id=3407">null download</a>
+  2. `Null Clear` a presetup transparent version of null, original file will not include addon imports. However, the theme will preset like `Null` with coloured channels, tooltips, etc. <a href="https://betterdiscord.net/ghdl?id=3408">null clear download</a>
+  <br> </br>
+  3. `Dark Null` will be setup to mimic the original Discord feel so no accent colours on tooltips, channels, blurple elements, mentions/channels, etc. <a href="https://betterdiscord.net/ghdl?id=3409">dark null download</a>
+  <br> </br>
 The third version is to appeal to lack of a "just a darker version of Discord nothing else". This version obviously could be made easily from changing things from the first file; however, it'll be ideal to remove the demand of just a dark discord even with a detailed readme.
 
-Note: I'm aware of the idea of themes and the idea of using imports and changing variables and calling them 'themes'. Null is one theme, with different versions already preset so thousands of questions are not being asked.
+Note: I'm aware of the idea of themes and the idea of using imports and changing variables and calling them 'themes'. Null is one theme, with different versions already preset to avoid the thousands of simple questions being asked.
 
 ## Previews
 ![Null](https://github.com/Asteria5675/BetterDiscordThemes/blob/master/SourceCodes/src/Screenshot_296.png)
@@ -85,6 +87,7 @@ another editing <a href="https://i.imgur.com/fISldFJ.mp4">shorter example</a>
 Final Result - image will fit to window size
 <img src="https://i.imgur.com/t25BzEy.png" />
 
+Also note, null clear can also be used to for a translucent discord. Enable Transparency in BD settings and leave the `url()` blank. Blur will not apply to other windows when doing this.
 ## Final Notes
 please read this readme to fully understand the countless possibilities of altering this theme.
 
