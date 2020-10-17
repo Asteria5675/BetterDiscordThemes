@@ -90,7 +90,8 @@ Full popout users import
 Changing imports
 <img src="https://i.imgur.com/QgZbnFA.gif" />
 
-- Watch the below videos for basic editing of variables
+Watch the below linked videos for basic editing of variables
+
 Turning Null into a transparent theme and basic variable changing <a href="https://i.imgur.com/9a7ZnkY.mp4">imgur video </a> (file exceeded length limit so it does not embed on github)
 another editing <a href="https://i.imgur.com/fISldFJ.mp4">shorter example</a>
 
