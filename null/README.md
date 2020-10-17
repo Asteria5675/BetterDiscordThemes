@@ -102,6 +102,8 @@ Also note, null clear can also be used to for a translucent discord. Enable Tran
 ## Final Notes
 please read this readme to fully understand the countless possibilities of altering this theme.
 
+Reason why I revived and rewrote null was because it one of the few really early basic dark mode theme that hardly changed the discord feel. However, the original got outdated quick and never got the spotlight for the unique concept of the theme.
+
 <a href="https://discord.gg/QRxZPvc" > Support Server </a> here. 
 Note: I make these themes on my free time DO NOT demand simple changes done for you. Use this readme and read it as well understand it. 
 
