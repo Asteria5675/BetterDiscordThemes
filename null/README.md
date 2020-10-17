@@ -1,15 +1,14 @@
-Null - placeholder
 
 # Intro
 Null a discord theme originally created by Modder. The original version used `calc` and css variables based around HSL.
 Hue based of a color wheel, Saturation for a shade gray (0%) to the full color(100%) from hue, and Lightness is the amount of light the color has 0% for black, 100% for white.
 This theme is a rewite of the original to provide the user with a lot of more variables to change the difference in colours or to keep a monotone of a particular color.
-A [guide]() on editing the variables of null.
+A [guide](https://github.com/Asteria5675/BetterDiscordThemes/blob/master/null/README.md/#Visual-Guides) on editing the variables of null.
 
 ## Versions
 Currently 2 main versions will be supported:
   1. `Null` which will include imports of addons, users may remove the addon imports if desired, which will most likely receive more updates and changes in the furture.
-  This version will preset as dark gray with dark navy blue background color.
+  This version will preset as dark gray and accent colors
   2. `Null Clear` a presetup transparent version of null, original file will not include addon imports. However, the theme will preset like `Null` with coloured channels, tooltips, etc.
   3. `Dark Null` will be setup to mimic the original Discord feel so no accent colours on tooltips, channels, blurple elements, mentions/channels, etc.
 The third version is to appeal to lack of a "just a darker version of Discord nothing else". This version obviously could be made easily from changing things from the first file; however, it'll be ideal to remove the demand of just a dark discord even with a detailed readme.
@@ -18,11 +17,11 @@ Note: I'm aware of the idea of themes and the idea of using imports and changing
 
 ## Previews
 ![Null](https://github.com/Asteria5675/BetterDiscordThemes/blob/master/SourceCodes/src/Screenshot_296.png)
-!![Edited Dark](https://i.imgur.com/SBK3mea.png)
+![Edited Dark](https://i.imgur.com/SBK3mea.png)
 <img src="https://i.imgur.com/RqK7TRu.png" height="300px" width="300px"/>
 ## Main Variables
 Main Variables - variables in theme file
-```
+```css
   --hue: 217 ;
   --saturation: 0% ;
   --lightness: 15% ;
@@ -50,12 +49,36 @@ accents, tooltips, mentions, etc.
 
 `--tooltip-background`,  `--blurple`,`--is-mention`, `--is-mention-bg`, `--unread`, and `--guild-selected` all use the variable `--accent` 
 
-```
+```css
 --channel-selected: linear-gradient(6deg, var(--channel-gradient-prim),  var(--channel-gradient-sec),  var(--channel-gradient-tri));
 ```
 was setup as background image gradient user may delete the whole gradient and replace it if they desire back to the normal channel modifier ex: 
-```
+```css
 --channel-selected: var(--background-modifier-selected);
 ```
 
 ## Addons
+only pretains to `Null`; however, imports can added to any themes not just null versions. (Important Note: adding these imports to other themes may not work properly)
+
+imports are theses: 
+```css
+@import url('https://asteria5675.github.io/addons/Bigger_Chat_Avatars.css');
+```
+This addon makes avatars in chat bigger`--avatar-size` and also can make them square`--avatar-roundness: 0;` as well
+```css
+@import url('https://asteria5675.github.io/addons/null_addons.css');
+```
+This addon changes a popouts and context menu to more a block design, nothing dramatic. Expect this import addon to be added onto.
+
+Both addon imports may be deleted from null if desired. Note: if you using these imports check the css to understand the variables if wanting to adjust certain css.
+```css
+ @import url('https://asteria5675.github.io/addons/full_popout_avatars.css');
+```
+## Visual Guides
+Changing imports
+<img src="https://i.imgur.com/QgZbnFA.gif" />
+
+Turning Null into transparent theme and basic variable changing <a href="https://i.imgur.com/9a7ZnkY.mp4">imgur video </a> (file exceeded length limit so it does not embed on github)
+
+Final Result - image will fit to window size
+<img src="https://i.imgur.com/t25BzEy.png" />
