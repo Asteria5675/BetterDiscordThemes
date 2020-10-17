@@ -24,6 +24,8 @@ Note: I'm aware of the idea of themes and the idea of using imports and changing
 ## Edited
 ![Edited Dark](https://i.imgur.com/SBK3mea.png)
 <img src="https://i.imgur.com/RqK7TRu.png" height="300px" width="300px"/>
+<p>These 3 presets I did not save the changed variables/values. Only to showcase that the user can achieve same outcomes if editing the theme file in such manner. </p>
+
 ## Dark Null
 ![Dark Null](https://i.imgur.com/bJ7MD92.png)
 
@@ -108,3 +110,6 @@ Reason why I revived and rewrote null was because it one of the few really early
 Note: I make these themes on my free time DO NOT demand simple changes done for you. Use this readme and read it as well understand it. 
 
 Speaking of making these themes for free if you really wanted to donate to me so I can live off another energy drink or two, then request the donate link enough on my server and I might make one who knows. I prefer not to advertise such though :)
+
+## Readme
+once again, it's called a `readme` for a reason. Start <a href="https://github.com/Asteria5675/BetterDiscordThemes/blob/master/null/README.md/#Intro">here</a> to understand how to change this theme to your desired background color/image. This readme is was created for all possible questions so read it or the theme file also containg examples/explanations. If you cannot understand anything from here, then you are better off with another theme.
