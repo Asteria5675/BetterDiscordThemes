@@ -89,7 +89,7 @@
         --friend-selected:var(--background-modifier-selected);
         --member-list-addition: 3.5%;
         --background-floating: hsla(calc(var(--hue) + var(--hue-addition)), calc(var(--saturation) + var(--saturation-addition)), calc(var(--lightness) + var(--lightness-addition)), calc(var(--floating-alpha)));
-        --divider-alpha: 0.8;
+        --divider-alpha: 0.45;
         /* Only Affects transparency option*/
         --titlebar-alpha: 0.45; /* Top Title Bar */
         --blur: 3px; /* 0px for no blur | Blur on image not desktop */
