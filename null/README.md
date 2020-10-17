@@ -18,11 +18,16 @@ The third version is to appeal to lack of a "just a darker version of Discord no
 
 Note: I'm aware of the idea of themes and the idea of using imports and changing variables and calling them 'themes'. Null is one theme, with different versions already preset to avoid the thousands of simple questions being asked.
 
-## Previews
+### Previews
+## Null
 ![Null](https://github.com/Asteria5675/BetterDiscordThemes/blob/master/SourceCodes/src/Screenshot_296.png)
+## Edited
 ![Edited Dark](https://i.imgur.com/SBK3mea.png)
 <img src="https://i.imgur.com/RqK7TRu.png" height="300px" width="300px"/>
-## Main Variables
+## Dark Null
+![Dark Null](https://i.imgur.com/bJ7MD92.png)
+
+### Main Variables
 Main Variables - variables in theme file
 ```css
   --hue: 217 ;
@@ -75,13 +80,17 @@ This addon makes avatars in chat bigger`--avatar-size` and also can make them sq
 This addon changes a popouts and context menu to more a block design, nothing dramatic. Expect this import addon to be added onto.
 
 Both addon imports may be deleted from null if desired. Note: if you using these imports check the css to understand the variables if wanting to adjust certain css.
+
+Full popout users import
 ```css
  @import url('https://asteria5675.github.io/addons/full_popout_avatars.css');
 ```
-## Visual Guides
+
+### Visual Guides
 Changing imports
 <img src="https://i.imgur.com/QgZbnFA.gif" />
 
+- Watch the below videos for basic editing of variables
 Turning Null into a transparent theme and basic variable changing <a href="https://i.imgur.com/9a7ZnkY.mp4">imgur video </a> (file exceeded length limit so it does not embed on github)
 another editing <a href="https://i.imgur.com/fISldFJ.mp4">shorter example</a>
 
