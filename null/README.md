@@ -17,7 +17,9 @@ The third version is to appeal to lack of a "just a darker version of Discord no
 Note: I'm aware of the idea of themes and the idea of using imports and changing variables and calling them 'themes'. Null is one theme, with different versions already preset so thousands of questions are not being asked.
 
 ## Previews
-
+![Null](https://github.com/Asteria5675/BetterDiscordThemes/blob/master/SourceCodes/src/Screenshot_296.png)
+!![Edited Dark](https://i.imgur.com/SBK3mea.png)
+<img src="https://i.imgur.com/RqK7TRu.png" height="300px" width="300px"/>
 ## Main Variables
 Main Variables - variables in theme file
 ```
