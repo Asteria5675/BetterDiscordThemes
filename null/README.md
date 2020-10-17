@@ -1,3 +1,4 @@
+This is called a `readme.md` for a reason.
 
 # Intro
 Null a discord theme originally created by Modder. The original version used `calc` and css variables based around HSL.
@@ -78,7 +79,16 @@ Both addon imports may be deleted from null if desired. Note: if you using these
 Changing imports
 <img src="https://i.imgur.com/QgZbnFA.gif" />
 
-Turning Null into transparent theme and basic variable changing <a href="https://i.imgur.com/9a7ZnkY.mp4">imgur video </a> (file exceeded length limit so it does not embed on github)
+Turning Null into a transparent theme and basic variable changing <a href="https://i.imgur.com/9a7ZnkY.mp4">imgur video </a> (file exceeded length limit so it does not embed on github)
+another editing <a href="https://i.imgur.com/fISldFJ.mp4">shorter example</a>
 
 Final Result - image will fit to window size
 <img src="https://i.imgur.com/t25BzEy.png" />
+
+## Final Notes
+please read this readme ti understand the countless possibilities of altering this theme.
+
+<a href="https://discord.gg/QRxZPvc" > Support Server </a> here. 
+Note: I make these themes on my free time DO NOT demand simple changes done for you. Use this readme and read it as well understand it. 
+
+Speaking of making these themes for free if you really wanted to donate to me so I can live off another energy drink or two, then request the donate link enough on my server and I might make one who knows. I prefer not to advertise such though :)
