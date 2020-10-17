@@ -41,7 +41,7 @@
         -third value [l] is lightness           [ --lightness: 0%; --> --lightness: 15%     ]
 
 Changing the above values will NOT CHANGE ANYTHING
-Change the values below (NOT the ones contained within "/*...*/"
+Change the values below >> NOT the ones contained within /*...*/
 /**/
 .theme-dark {
     /*      Test Variables to mess around for different colours                */
