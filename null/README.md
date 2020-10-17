@@ -48,7 +48,7 @@ addition variables can also be a negative intergers (ex `--saturation-addition: 
 
 ## Accents
 accents, tooltips, mentions, etc.
-`--accent` is the accent colout that applies to many regions such as pings, notification dots, blurple elements( discord blue). Users may revert the changes back as in file provide defaults to revert all are variables; however, it may be better to alter Dark Null if you deire the least changes of accents.
+`--accent` is the accent colout that applies to many regions such as pings, notification dots, blurple elements( discord blue). Users may revert the changes back as in file provide defaults to revert all are variables; however, it may be better to alter Dark Null if you desire the least changes of accents.
 
 `--tooltip-background`,  `--blurple`,`--is-mention`, `--is-mention-bg`, `--unread`, and `--guild-selected` all use the variable `--accent` 
 
@@ -61,7 +61,8 @@ was setup as background image gradient user may delete the whole gradient and re
 ```
 
 ## Addons
-only pretains to `Null`; however, imports can added to any themes not just null versions. (Important Note: adding these imports to other themes may not work properly)
+only pretains to `Null`; however, imports can be added to any themes not just null versions. (Important Note: adding these imports to other themes may not work properly)
+Note: imports are placed above all other css in a file
 
 imports are theses: 
 ```css
