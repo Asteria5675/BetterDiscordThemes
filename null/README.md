@@ -86,7 +86,7 @@ Final Result - image will fit to window size
 <img src="https://i.imgur.com/t25BzEy.png" />
 
 ## Final Notes
-please read this readme ti understand the countless possibilities of altering this theme.
+please read this readme to fully understand the countless possibilities of altering this theme.
 
 <a href="https://discord.gg/QRxZPvc" > Support Server </a> here. 
 Note: I make these themes on my free time DO NOT demand simple changes done for you. Use this readme and read it as well understand it. 
