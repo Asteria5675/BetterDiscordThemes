@@ -1896,7 +1896,7 @@ section .da-scroller::-webkit-scrollbar-thumb {border: none !important;}
         content: "Dusk to Dawn";
         display: block !important;
         position: absolute;
-        left: 9px;
+        left: 10px;
         top: 20px;
         width: 100px;
         height: 5px;
