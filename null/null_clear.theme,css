@@ -1,0 +1,103 @@
+/**
+  * @name null clear
+  * @description transparent ver. null , lost? A rewrite of null, originally by Modder, 
+  use of HSL to alter the colour background of Discord. Rewrite to add 
+  in even more custom options. Use the readme from github to understand modifying this file.
+
+  * @author Asteria
+  * @version 1.0.0
+  * @invite QRxZPvc
+  * @website https://github.com/Asteria5675/BetterDiscordThemes/blob/master/null/README.md
+ */
+ /* Null Import | Don't Delete */
+ @import url('https://asteria5675.github.io/BetterDiscordThemes/SourceCodes/src/null.css');
+ /* Imports */
+ @import url('https://asteria5675.github.io/addons/Bigger_Chat_Avatars.css');
+ /* @import url('https://asteria5675.github.io/addons/null_addons.css'); */
+
+ /* @import url('https://asteria5675.github.io/addons/full_popout_avatars.css'); */
+/**/
+/*//
+
+                Read the READ.md from github for visual explanations
+            ------------------------------------------------------------
+
+                                                                                              ____ __   __   __   __  __
+    <https://github.com/Asteria5675/BetterDiscordThemes/blob/master/null/README.md>           \  __  \  \ \  \ \  \ \ \ \ 
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                      \ \  \ \  \ \  \ \  \ \ \ \
+                                                                                                \ \  \ \  \ \_ \ \  \ \ \ \
+                                                                                                 \_\  \_|  \____ _|  \_| \_|
+            ------------------------------------------------------------
+                Read the READ.md from github for visual explanations
+           
+//*/
+/* 
+ Quick explanation:
+    1. Find the colour you desire in HSL        [example: hsl(217, 12%, 15%) for a navy blue]
+
+    2. Replace the variables from .theme-dark variables list
+        -the first value of hsl() is hue[h]     [ --hue: 0; --> --hue: 217;                 ]
+        -second value [s] is saturation         [ --saturation: 0%; --> --saturation: 12%   ]
+        -third value [l] is lightness           [ --lightness: 0%; --> --lightness: 15%     ]
+
+*/
+.theme-dark {
+    /*      Test Variables to mess around for different colours                */
+        --test: hsla(217, 12%, 15%, 0.99) ; /* hsla(217, 33%, 18%, 0.99); */
+        --example-black: hsla(0, 0%, 0%, 0.99);
+    
+    /*  HSL values      - change these values for different background color                                  */
+        --hue: 217 ;                /* Value between [0,360] */
+        --saturation: 0% ;         /* shade of grey(0%) to full color(100%) | Value is in (%) */
+        --lightness: 15% ;          /* 0% is black \ 100% is white | Value is in (%) >>>>Note advised to NOT use high ligtness<<<*/
+        --alpha: 0.35 ;                /* 1 is for solid color | follow the readme to understand alpha for transparency */
+    
+    /*  Change these values to 0%(not --hue-addition) if you want the one colour throughout Discord*/
+        --hue-addition: 0 ;          
+        --saturation-addition: -1% ;  
+        --lightness-addition: -5% ; 
+        --alpha-addition: 0.355 ;       /* Additional alpha for main parts of Discord if making a semi transparent Discord from this theme */
+    
+    /*  Accent Colors / Tooltips / Mentions                                                                        */
+    
+        --accent-color: hsl(205, 92%, 61%);
+        --tooltip-background: var(--accent-color); /* Discord Default: #000 | Theme Default: var(--accent-color)*/
+        --tooltip-text: #dcddde;              /* Discord Default: #dcddde*/
+        --blurple: var(--accent-color);         /* Discord Default: #7289DA | Theme Default var(--accent-color) */
+        --mention-channel-background: 0.2;      /* Channel/Other User Mentions Opacity/Alpha*/
+        --is-mention: var(--accent-color);      /* Discord Default hsl(38, 96%, 54%); */
+        --is-mention-bg:var(--accent-color);    /* Discord Default hsl(38, 96%, 54%) */
+        --is-mention-alpha:0.15;                /* Discord Default 0.05 */
+
+        --unread: var(--accent-color) ; /* Discord Default: #fff */
+        --guild-selected: var(--accent-color); /* Discord Default: #fff | Only changed for users of BD*/
+
+        /* Channel / DM - Selected channel*/
+        --channel-selected: linear-gradient(6deg, var(--channel-gradient-prim),  var(--channel-gradient-sec),  var(--channel-gradient-tri)) /* <-- delete this and replace 
+        with var(--background-modifier-selected) for default discord*/;
+            --channel-gradient-prim:#0096bfcc;
+            --channel-gradient-sec:#39a4da;
+            --channel-gradient-tri: var(--accent-color);
+    /* Misc Values - do NOT CHANGE (unless you know what they do)*/
+        --multiplier: (1.25);
+        --track-alpha: 0.45;
+        --floating-alpha: 1;
+    
+        --channeltextarea-background: hsla(calc(var(--hue) + var(--hue-addition)), calc(var(--saturation) + 6%), calc(var(--lightness) + calc(var(--multiplier) * var(--lightness-addition))), calc(var(--alpha)));
+        --server-blurple: var(--blurple);        /*Background color of the Home Icon*/
+        --settings-selected:var(--accent-color); /*Discord Default: --background-modifier-selected | Theme Default: --accent-color*/
+        --friend-selected:var(--background-modifier-selected);
+        --member-list-addition: 3.5%;
+        --background-floating: hsla(calc(var(--hue) + var(--hue-addition)), calc(var(--saturation) + var(--saturation-addition)), calc(var(--lightness) + var(--lightness-addition)), calc(var(--floating-alpha)));
+        --divider-alpha: 0.8;
+        /* Only Affects transparency option*/
+        --titlebar-alpha: 0.45; /* Top Title Bar */
+        --blur: 3px; /* 0px for no blur | Blur on image not desktop */
+
+        --text-muted: #72767d; /* Discord Default: #72767d | #c0c0c0*/
+        --text-normal: #dcddde; /* Discord Default: #dcddde */
+}
+#app-mount::after {
+    /* Change the below url to a direct image link(right click image on browser > copy image address) [insert your link between '()' in 'url()' ]*/
+    background: url(https://i.imgur.com/IM6calb.jpg) center/cover;
+}
