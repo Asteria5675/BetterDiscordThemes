@@ -40,7 +40,9 @@
         -second value [s] is saturation         [ --saturation: 0%; --> --saturation: 12%   ]
         -third value [l] is lightness           [ --lightness: 0%; --> --lightness: 15%     ]
 
-*/
+Changing the above values will NOT CHANGE ANYTHING
+Change the values below (NOT the ones contained within "/*...*/"
+/**/
 .theme-dark {
     /*      Test Variables to mess around for different colours                */
         --test: hsla(217, 12%, 15%, 0.99) ; /* hsla(217, 33%, 18%, 0.99); */
@@ -49,7 +51,7 @@
     /*  HSL values      - change these values for different background color                                  */
         --hue: 217 ;                /* Value between [0,360] */
         --saturation: 0% ;          /* shade of grey(0%) to full color(100%) | Value is in (%) */
-        --lightness: 10% ;          /* 0% is black \ 100% is white | Value is in (%) >>>>Note advised to NOT use high ligtness<<<*/
+        --lightness: 3% ;          /* 0% is black \ 100% is white | Value is in (%) >>>>Note advised to NOT use high ligtness<<<*/
         --alpha: 1 ;                /* 1 is for solid color | follow the readme to understand alpha for transparency */
     
     /*  Change these values to 0%(not --hue-addition) if you want the one colour throughout Discord*/
