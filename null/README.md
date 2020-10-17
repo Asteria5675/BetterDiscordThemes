@@ -27,7 +27,7 @@ Note: I'm aware of the idea of themes and the idea of using imports and changing
 <p>These 3 presets I did not save the changed variables/values. Only to showcase that the user can achieve same outcomes if editing the theme file in such manner. </p>
 
 ## Dark Null
-![Dark Null](https://i.imgur.com/bJ7MD92.png)
+![Dark Null](https://i.imgur.com/Q1TW7vn.png)
 
 ### Main Variables
 Main Variables - variables in theme file
