@@ -8,7 +8,7 @@
         --background-tertiary: transparent;
         --background-accent: transparent;
     
-        --scrollbar-auto-thumb: hsla(var(--hue), calc(var(--saturation) + 2%), calc(var(--lightness) - 2%), calc(var(--alpha)));
+        --scrollbar-auto-thumb: hsla(var(--hue), calc(var(--saturation) + 2%), calc(var(--lightness) + 4%), calc(var(--alpha)));
         --scrollbar-auto-track: hsla(calc(var(--hue) + var(--hue-addition)), calc(var(--saturation) + calc(var(--multiplier) * var(--saturation-addition))), calc(var(--lightness) + calc(1.65 * var(--multiplier) * var(--lightness-addition))), calc(var(--track-alpha)));
         --scrollbar-auto-scrollbar-color-thumb: var(--scrollbar-auto-thumb);
         --scrollbar-auto-scrollbar-color-track: var(--scrollbar-auto-thumb);
