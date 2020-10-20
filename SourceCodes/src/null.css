@@ -150,6 +150,10 @@
     .drawerSizingWrapper-17Mss4 {
             background-color: hsla(var(--hue),var(--saturation), var(--lightness), calc(var(--alpha) + var(--alpha-addition)));
     }
+.guildSection-1EoFKd,
+.emojiSection-3Fb9ix {
+    background-color: hsla(var(--hue), var(--saturation), var(--lightness), calc(var(--alpha) + var(--alpha-addition)));
+}
             /*Auto Complete*/
     #app-mount .autocomplete-1vrmpx {
         background-color: hsla(calc(var(--hue) + var(--hue-addition)), calc(var(--saturation) + var(--saturation-addition)), calc(var(--lightness) + var(--lightness-addition)), calc(var(--alpha) + var(--alpha-addition))); 
