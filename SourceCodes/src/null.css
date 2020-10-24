@@ -531,3 +531,27 @@
     .wanderingCubesItem-WPXqao {
         background-color: var(--blurple);
     }
+
+    /* ||| */
+.diversitySelectorPopout-3FiGaM,
+.premiumPromo-fVlLu-,
+.unicodeShortcut-15J8Ck {
+    background-color: hsla(var(--hue), var(--saturation), var(--lightness), var(--alpha))
+}
+.emptyUser-3FRJaF,
+.moreUsers-1s5Her,
+#app-mount .moreUsers-1sZP3U,
+.moreUsers-7v8yWY,
+#app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse,
+.categoryItemDefaultCategorySelected-_HCKoz,
+.categoryItemDefaultCategorySelected-_HCKoz:hover,
+.guildIconWithoutImage-2JZx6N,
+.guildIcon-3h-1IH {
+    background-color: hsla(var(--hue), var(--saturation), var(--lightness), var(--alpha))
+}
+.guildsError-b7zR5H,
+.circleIconButton-jET_ig,
+.dragInner-_SHftW,
+.wrapper-2Gsate {
+    background-color: hsla(calc(var(--hue) + var(--hue-addition)), calc(var(--saturation) + var(--saturation-addition)), calc(var(--lightness) + var(--lightness-addition)), var(--alpha));
+}
