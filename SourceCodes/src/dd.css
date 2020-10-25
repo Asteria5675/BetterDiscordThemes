@@ -2026,7 +2026,6 @@ section .da-scroller::-webkit-scrollbar-thumb {border: none !important;}
     overflow: visible;
     transform: translateZ(0);
     z-index: 3;
-    transition: 350ms ease-out;
 }
 /* Updates */
 #app-mount a.da-selected.da-wrapper {
