@@ -239,7 +239,7 @@
     #app-mount .root-1gCeng,
     #app-mount .message-2qRu38,
     #app-mount .modal-yWgWj- {
-        background-color: hsla(calc(var(--hue) + var(--hue-addition)), calc(var(--saturation) + var(--saturation-addition)), calc(var(--lightness) + 9%), calc(var(--alpha)));
+        background-color: hsla(calc(var(--hue) + var(--hue-addition)), calc(var(--saturation) + var(--saturation-addition)), calc(var(--lightness) + 2%), calc(var(--alpha))) !important;
     }
     #app-mount .footer-2gL1pp {
         background-color: hsla(calc(var(--hue) + var(--hue-addition)), calc(var(--saturation) + var(--saturation-addition)), var(--lightness), calc(var(--alpha)));
