@@ -123,7 +123,7 @@
     .mentioned-xhSam7 .wrapper-3WhCwL::after {
         background-color: transparent;
     }
-    
+    #app-mount .mention.interactive:hover {color:unset}
     #app-mount .scroller-1-nKid {
             background-color: hsla(var(--hue),var(--saturation), var(--lightness), var(--alpha));
     }
@@ -153,6 +153,28 @@
 .guildSection-1EoFKd,
 .emojiSection-3Fb9ix {
     background-color: hsla(var(--hue), var(--saturation), var(--lightness), calc(var(--alpha) + var(--alpha-addition)));
+}
+#app-mount .categoryFadeBlurple-1j72_A {
+    background-color: transparent;
+}
+#app-mount .categoryFadeBlurple-1j72_A:hover::after {
+    content: '';
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background-color: var(--blurple);
+    opacity: 0.5;
+    z-index: 1;
+}
+.theme-dark .focused-1En8bG:after, .theme-dark .result-3w1ZcL:hover:after {
+    box-shadow: inset 0 0 0 2px var(--blurple), inset 0 0 0 3px #2f3136;
+}
+#app-mount .result-3w1ZcL[style*="background-color"] {
+    background-color: var(--blurple) !important;
+}
+
+.navButtonActive-1MkytQ {
+    background-color: #c7c7c71f;
 }
             /*Auto Complete*/
     #app-mount .autocomplete-1vrmpx {
