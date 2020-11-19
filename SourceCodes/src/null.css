@@ -298,9 +298,9 @@
         background-color: #b7b7b70d;
     }
     /* Channels Selected*/
-    .wrapper-1ucjTd:hover .content-3at_AU,
+    
     .modeSelected-346R90 .content-1x5b-n, 
-    .modeSelected-346R90:hover .content-1x5b-n 
+    .modeSelected-346R90:hover .content-1x5b-n,
     .selected-aXhQR6 .layout-2DM8Md {
         background: var(--channel-selected);
     }
@@ -413,7 +413,7 @@
         border-color: var(--blurple);
     }
     /* Item Selected Containers / Checkboxes*/
-    #app-mount .item-26Dhrx[style*="background-color"] {
+    #app-mount .cardPrimaryEditable-3KtE4g[style*="background-color"] {
         background-color: var(--blurple) !important;
         border-color: var(--blurple) !important;
     }
