@@ -1538,6 +1538,9 @@ section .da-scroller::-webkit-scrollbar-thumb {border: none !important;}
 .roleRemoveIcon-2-TeGW path {fill: #b34747;}
 .da-roleName {pointer-events: none;}
 
+.container-3XJ8ns {
+    background: var(--background-floating)
+}
 /* Context Menu */
 .theme-dark .contextMenu-HLZMGh {
     background-color: #201f1f;
