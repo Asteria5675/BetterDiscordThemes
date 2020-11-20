@@ -2290,3 +2290,6 @@ svg polyline[stroke="#7289da"] {
 .sizeSmall-1jtLQy .da-item .da-checkbox path[fill="#7289da"] {
     fill: var(--dusk-background-2);
 }
+.contentWrapper-SvZHNd {
+  background: var(--background-floating);
+}
