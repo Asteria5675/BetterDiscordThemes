@@ -43,7 +43,7 @@
 Changing the above values will NOT CHANGE ANYTHING
 Change the values below >> NOT the ones contained within /*...*/
 /**/
-.theme-dark {
+:root {
     /*      Test Variables to mess around for different colours                */
         --test: hsla(217, 12%, 15%, 0.99) ; /* hsla(217, 33%, 18%, 0.99); */
         --example-black: hsla(0, 0%, 0%, 0.99);
@@ -59,7 +59,14 @@ Change the values below >> NOT the ones contained within /*...*/
         --saturation-addition: -1% ;  
         --lightness-addition: -5% ; 
         --alpha-addition: 0.255 ;       /* Additional alpha for main parts of Discord if making a semi transparent Discord from this theme */
-    
+ 
+        /* Image / Transparency */
+/* Change the below url to a direct image link(right click image on browser > copy image address) [insert your link between '()' in 'url()' ]*/
+        --image: url();
+        /* Only Affects transparency option*/
+        --titlebar-alpha: 1; /* Top Title Bar */
+        --blur: 0px; /* 0px for no blur | Blur on image not desktop */
+ 
     /*  Accent Colors / Tooltips / Mentions                                                                        */
     
         --accent-color: hsl(205, 92%, 61%);
@@ -75,11 +82,9 @@ Change the values below >> NOT the ones contained within /*...*/
         --guild-selected: var(--accent-color); /* Discord Default: #fff | Only changed for users of BD*/
 
         /* Channel / DM - Selected channel*/
-        --channel-selected: linear-gradient(6deg, var(--channel-gradient-prim),  var(--channel-gradient-sec),  var(--channel-gradient-tri)) /* <-- delete this and replace 
+        --channel-selected: var(--accent-color)/* <-- delete this and replace 
         with var(--background-modifier-selected) for default discord*/;
-            --channel-gradient-prim:#0096bfcc;
-            --channel-gradient-sec:#39a4da;
-            --channel-gradient-tri: var(--accent-color);
+
     /* Misc Values - do NOT CHANGE (unless you know what they do)*/
         --multiplier: (1.25);
         --track-alpha: 0.45;
@@ -92,14 +97,6 @@ Change the values below >> NOT the ones contained within /*...*/
         --member-list-addition: 3.5%;
         --background-floating: hsla(calc(var(--hue) + var(--hue-addition)), calc(var(--saturation) + var(--saturation-addition)), calc(var(--lightness) + var(--lightness-addition)), calc(var(--floating-alpha)));
         --divider-alpha: 0.8;
-        /* Only Affects transparency option*/
-        --titlebar-alpha: 1; /* Top Title Bar */
-        --blur: 0px; /* 0px for no blur | Blur on image not desktop */
 
-        --text-muted: #72767d; /* Discord Default: #72767d | #c0c0c0*/
-        --text-normal: #dcddde; /* Discord Default: #dcddde */
-}
-#app-mount::after {
-    /* Change the below url to a direct image link(right click image on browser > copy image address) [insert your link between '()' in 'url()' ]*/
-    background: url() center/cover;
+
 }
