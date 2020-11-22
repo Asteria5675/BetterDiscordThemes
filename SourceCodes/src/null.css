@@ -17,6 +17,13 @@
         --deprecated-quickswitcher-input-background: #2e2e2e;
     
     }
+bd-body, 
+.bd-settings-title, 
+.bd-settings-title ~ div {
+        --background-primary: hsla(calc(var(--hue) + var(--hue-addition)), calc(var(--saturation) + var(--saturation-addition)), calc(var(--lightness) + var(--lightness-addition)), var(--titlebar-alpha));
+        --background-secondary: hsla(var(--hue), var(--saturation), var(--lightness), var(--divider-alpha));
+        --background-tertiary: hsla(calc(var(--hue) + var(--hue-addition)), calc(var(--saturation) + var(--saturation-addition)), calc(var(--lightness) + var(--lightness-addition)), var(--titlebar-alpha));
+}
     /* Transparency / Titlebar*/
     #app-mount {
         position: relative;
@@ -38,7 +45,8 @@
     #app-mount::after {z-index: -2;}
     #app-mount::before {
         z-index: -1;
-        backdrop-filter: blur(var(--blur));
+        background: var(--image) center/cover no-repeat;
+        filter: blur(var(--blur));
     }
 
     /* ///////
@@ -576,4 +584,15 @@
 .dragInner-_SHftW,
 .wrapper-2Gsate {
     background-color: hsla(calc(var(--hue) + var(--hue-addition)), calc(var(--saturation) + var(--saturation-addition)), calc(var(--lightness) + var(--lightness-addition)), var(--alpha));
+}
+/* Patches / Fixes */
+
+.radioIconForeground-XwlXQN,
+.lookInverted-2D7oAl.colorBrand-3pXr91,
+.improved-1NJK-y {
+    color: var(--blurple);
+}
+.improved-1NJK-y:after {background-color: var(--blurple)}
+.flowerStar-1GeTsn path[fill] {
+    fill: var(--blurple);
 }
