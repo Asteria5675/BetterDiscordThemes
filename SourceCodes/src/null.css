@@ -19,7 +19,8 @@
     }
 bd-body, 
 .bd-settings-title, 
-.bd-settings-title ~ div {
+.bd-settings-title ~ div,
+.layer-v9HyYc {
         --background-primary: hsla(calc(var(--hue) + var(--hue-addition)), calc(var(--saturation) + var(--saturation-addition)), calc(var(--lightness) + var(--lightness-addition)), var(--titlebar-alpha));
         --background-secondary: hsla(var(--hue), var(--saturation), var(--lightness), var(--divider-alpha));
         --background-tertiary: hsla(calc(var(--hue) + var(--hue-addition)), calc(var(--saturation) + var(--saturation-addition)), calc(var(--lightness) + var(--lightness-addition)), var(--titlebar-alpha));
@@ -596,3 +597,5 @@ bd-body,
 .flowerStar-1GeTsn path[fill] {
     fill: var(--blurple);
 }
+.selectedIcon-3uS11H {color: var(--blurple)}
+#app-mount .path-92Hmty {stroke: var(--blurple)}
