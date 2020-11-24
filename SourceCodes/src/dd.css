@@ -10,7 +10,7 @@
     --chat-scrollbar-width: 12px;
     --scrollbar-thumb: #666;
     --scrollbar-thumb-hover: #aaa7a7;
-    --settings-blurple: #c47cff;
+    --settings-blurple: #5f5f5f;
     --speaking-ring: hsla(0, 0%, 93%, 0.75);
     --mentioned-before: rgba(95, 95, 95, 1);
     --mentioned: rgba(95, 95, 95, 0.1);
@@ -2315,23 +2315,26 @@ svg polyline[stroke="#7289da"] {
     inset 0 0 0 3px var(--background-secondary);
 }
 
-.container-3auIfb[style*="67, 181, 129"],
-.button-38aScr[style*="114, 137, 218"],
 .bd-switch-checked {
+  background: var(--settings-blurple);
+}
+.container-3auIfb:not([style*="rgb(114, 118, 125)"]),
+.button-38aScr[style*="114, 137, 218"] {
   background: var(--settings-blurple) !important;
 }
-
-.container-3auIfb[style*="67, 181, 129"] .slider-TkfMQL svg path {
+.radioIconForeground-XwlXQN,
+.container-3auIfb:not([style*="rgb(114, 118, 125)"]) .slider-TkfMQL svg path {
   fill: var(--settings-blurple);
-}
-.radioIconForeground-XwlXQN {
-  fill: var(--settings-blurple) !important;
 }
 .lookOutlined-3sRXeN.colorBrand-3pXr91 {
   color: var(--settings-blurple);
   border-color: var(--settings-blurple);
 }
+.item-26Dhrx[aria-checked="true"] svg {
+  color: var(--settings-blurple);
+}
 
+/* White Connection Icons - Credits to botato#6883 */
 .connectedAccountIcon-3P3V6F[alt*="Battle.net"] {
   content: url(/assets/3a257c4cab129e956b05bd50047eb0f9.png);
 }
@@ -2367,30 +2370,4 @@ svg polyline[stroke="#7289da"] {
 }
 .connectedAccountIcon-3P3V6F[alt*="Xbox Live"] {
   content: url(/assets/850ed4fcf5839b7a32651f5959e8511e.png);
-}
-
-.tabBar-2MuP6- {
-  justify-content: center;
-}
-.top-28JiJ-:last-child .item-PXvHYJ:last-child {
-  margin-right: 0;
-}
-
-.headerPlaying-j0WQBV,
-.topSectionPlaying-1J5E4n {
-  z-index: 1;
-  background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),
-    linear-gradient(to top right, #17181a, #14141f) !important;
-}
-.headerSpotify-zpWxgT,
-.topSectionSpotify-1lI0-P {
-  z-index: 1;
-  background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),
-    linear-gradient(to top right, #32b054, #35b958) !important;
-}
-.headerStreaming-2FjmGz,
-.topSectionStreaming-1Tpf5X {
-  z-index: 1;
-  background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),
-    linear-gradient(to top right, #54358c, #593894) !important;
 }
