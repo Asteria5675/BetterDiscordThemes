@@ -2098,12 +2098,35 @@ rect[transform] {
 .theme-dark .da-activityFeed {
     background-color: #1f1c1c;
 }
-.theme-dark .da-modal:not([style]), .theme-dark .root-1gCeng {
-    background-color: #191717
+.theme-dark .da-modal:not([style]),
+.theme-dark .root-1gCeng {
+  background-color: #191717;
+  --header-primary: #c3c7ce;
+  --header-secondary: #8b939e;
+  --text-normal: #aab4be;
+  --text-muted: #494e55;
+  --text-link: #6c7279;
+  --interactive-normal: #8b939e;
+  --interactive-hover: #aab4be;
+  --background-primary: #2c2929;
+  --background-tertiary: #212121;
 }
-.theme-dark .footer-2gL1pp, .theme-dark .footer-3rDWdC,
+.theme-dark .root-1gCeng .contents-18-Yxp {
+  color: #b9baba;
+}
+.lookFilled-1Gx00P.colorGrey-2DXtkV {
+  background-color: #4d5258;
+}
+.lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
+  background-color: #3d3f44;
+}
+.theme-dark .footer-2gL1pp {
+  background-color: #212121;
+  box-shadow: inset 0 1px 0 #3b3b3c;
+}
+.theme-dark .footer-3rDWdC,
 .theme-dark .da-modal .da-footer {
-    background-color: #212121;
+  background-color: #212121;
 }
 .da-modal .da-footer {
     padding: 16px 20px
