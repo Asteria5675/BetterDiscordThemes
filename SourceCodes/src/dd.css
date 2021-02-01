@@ -1773,7 +1773,7 @@ section .da-scroller::-webkit-scrollbar-thumb {border: none !important;}
     background-size: 18px 22px;
 }
 /* */
-/* Status Test */ 
+/* Status Test *//* 
 #status-picker .da-scroller::-webkit-scrollbar {
     width: 0; height: 0;
     visibility: hidden;
