@@ -156,7 +156,10 @@
 .option-ayUoaq:after {display:none}
 
 
-
+/* emoji layer*/
+.contentWrapper-3vHNP2 {
+    background-color: var(--background-floating);
+}
 
 /* Old Settings Modal 
 originally created by Zerebos
